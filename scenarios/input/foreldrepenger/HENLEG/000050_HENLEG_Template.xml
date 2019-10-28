@@ -1,0 +1,45 @@
+<brevdata>
+    <felles>
+        <spraakkode>{sprakkode}</spraakkode>
+        <fagsaksnummer>140258233</fagsaksnummer>
+        <automatiskBehandlet>true</automatiskBehandlet>
+        <sakspart>
+            <sakspartId>10092134402</sakspartId>
+            <sakspartTypeKode>PERSON</sakspartTypeKode>
+            <sakspartNavn>RISPBUSK LEALAUS</sakspartNavn>
+        </sakspart>
+        <mottaker>
+            <mottakerId>10092134402</mottakerId>
+            <mottakerTypeKode>PERSON</mottakerTypeKode>
+            <mottakerNavn>RISPBUSK LEALAUS</mottakerNavn>
+            <mottakerAdresse>
+                <adresselinje1>SANNERGATA 2</adresselinje1>
+                <postNr>0956</postNr>
+                <poststed>OSLO</poststed>
+                <land>NORGE</land>
+            </mottakerAdresse>
+        </mottaker>
+        <navnAvsenderEnhet>NAV Familie- og pensjonsytelser</navnAvsenderEnhet>
+        <kontaktInformasjon>
+            <kontaktTelefonnummer>55553333</kontaktTelefonnummer>
+            <returadresse>
+                <navEnhetsNavn>NAV Familie- og pensjonsytelser</navEnhetsNavn>
+                <adresselinje>Postboks 6600 Etterstad</adresselinje>
+                <postNr>0607</postNr>
+                <poststed>OSLO</poststed>
+            </returadresse>
+            <postadresse>
+                <navEnhetsNavn>NAV Familie- og pensjonsytelser</navEnhetsNavn>
+                <adresselinje>Postboks 6600 Etterstad</adresselinje>
+                <postNr>0607</postNr>
+                <poststed>OSLO</poststed>
+            </postadresse>
+        </kontaktInformasjon>
+        <dokumentDato>2019-06-24</dokumentDato>
+    </felles>
+    <fag>
+        <ytelseType>{ytelse}</ytelseType>
+        <behandlingsType>{behandlingsType}</behandlingsType>
+        <opphavType>{opphavType}</opphavType>
+    </fag>
+</brevdata>

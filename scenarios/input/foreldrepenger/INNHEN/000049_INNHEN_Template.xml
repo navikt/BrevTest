@@ -1,0 +1,49 @@
+<brevdata>
+    <felles>
+        <spraakkode>{sprakkode}</spraakkode>
+        <fagsaksnummer>138487521</fagsaksnummer>
+        <automatiskBehandlet>true</automatiskBehandlet>
+        <sakspart>
+            <sakspartId>23129132213</sakspartId>
+            <sakspartTypeKode>PERSON</sakspartTypeKode>
+            <sakspartNavn>REKSLEN ELINE SØRHUS</sakspartNavn>
+        </sakspart>
+        <mottaker>
+            <mottakerId>23129132213</mottakerId>
+            <mottakerTypeKode>PERSON</mottakerTypeKode>
+            <mottakerNavn>REKSLEN ELINE SØRHUS</mottakerNavn>
+            <mottakerAdresse>
+                <adresselinje1>OTTO SOGNS VEI 5</adresselinje1>
+                <postNr>0681</postNr>
+                <poststed>OSLO</poststed>
+                <land>NORGE</land>
+            </mottakerAdresse>
+        </mottaker>
+        <navnAvsenderEnhet>NAV Familie- og pensjonsytelser</navnAvsenderEnhet>
+        <kontaktInformasjon>
+            <kontaktTelefonnummer>55553333</kontaktTelefonnummer>
+            <returadresse>
+                <navEnhetsNavn>NAV Familie- og pensjonsytelser</navEnhetsNavn>
+                <adresselinje>Postboks 6600 Etterstad</adresselinje>
+                <postNr>0607</postNr>
+                <poststed>OSLO</poststed>
+            </returadresse>
+            <postadresse>
+                <navEnhetsNavn>NAV Familie- og pensjonsytelser</navEnhetsNavn>
+                <adresselinje>Postboks 6600 Etterstad</adresselinje>
+                <postNr>0607</postNr>
+                <poststed>OSLO</poststed>
+            </postadresse>
+        </kontaktInformasjon>
+        <dokumentDato>2019-05-28</dokumentDato>
+    </felles>
+    <fag>
+        <soknadDato>2019-02-19</soknadDato>
+        <fristDato>2019-06-18</fristDato>
+        <fritekst>lønnslipp</fritekst>
+        <sokersNavn>REKSLEN ELINE SØRHUS</sokersNavn>
+        <ytelseType>{ytelse}</ytelseType>
+        <behandlingsType>{behandlingsType}</behandlingsType>
+        <personstatus>{personStatus}</personstatus>
+    </fag>
+</brevdata>
