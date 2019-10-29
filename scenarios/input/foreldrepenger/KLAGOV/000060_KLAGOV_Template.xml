@@ -1,0 +1,63 @@
+<brevdata>
+    <felles>
+        <spraakkode>{sprakkode}</spraakkode>
+        <fagsaksnummer>140258233</fagsaksnummer>
+        <automatiskBehandlet>true</automatiskBehandlet>
+        <sakspart>
+            <sakspartId>10092134402</sakspartId>
+            <sakspartTypeKode>PERSON</sakspartTypeKode>
+            <sakspartNavn>RISPBUSK LEALAUS</sakspartNavn>
+        </sakspart>
+        <mottaker>
+            <mottakerId>10092134402</mottakerId>
+            <mottakerTypeKode>PERSON</mottakerTypeKode>
+            <mottakerNavn>RISPBUSK LEALAUS</mottakerNavn>
+            <mottakerAdresse>
+                <adresselinje1>SANNERGATA 2</adresselinje1>
+                <postNr>9307</postNr>
+                <poststed>OSLO</poststed>
+                <land>NORGE</land>
+            </mottakerAdresse>
+        </mottaker>
+        <navnAvsenderEnhet>NAV Familie- og pensjonsytelser</navnAvsenderEnhet>
+        <kontaktInformasjon>
+            <kontaktTelefonnummer>55553333</kontaktTelefonnummer>
+            <returadresse>
+                <navEnhetsNavn>NAV Familie- og pensjonsytelser</navEnhetsNavn>
+                <adresselinje>Postboks 6600 Etterstad</adresselinje>
+                <postNr>0607</postNr>
+                <poststed>OSLO</poststed>
+            </returadresse>
+            <postadresse>
+                <navEnhetsNavn>NAV Familie- og pensjonsytelser</navEnhetsNavn>
+                <adresselinje>Postboks 6600 Etterstad</adresselinje>
+                <postNr>0607</postNr>
+                <poststed>OSLO</poststed>
+            </postadresse>
+        </kontaktInformasjon>
+        <dokumentDato>2019-06-03</dokumentDato>
+    </felles>
+    <fag>
+        <ytelseType>{ytelse}</ytelseType>
+        <mottattDato>2019-02-06</mottattDato>
+        <antallUker>14</antallUker>
+        <fritekst>HVA KLAGESAKEN GJELDER
+            Vi viser til klage mottatt 060219 over vårt vedtak av 150119 der
+            beregningsgrunnlaget for foreldrepenger ble satt til 284.947 kroner
+            per år.  NAV Klageinstans skal vurdere saken din på nytt da vi har kommet frem til at det ikke endres.
+
+            KLAGERS ANFØRSLER
+            Klager anfører at hun i august 2018 gikk fra 60 % stilling til 100 % stilling, og at månedslønnen hennes fra august dermed steg jevnt med stillingsprosenten. Videre anfører klager at den nye årslønnen hennes da ble 406.200 kr. Ut i fra NAVs foreldrepengekalkulator skulle foreldrepengegrunnlaget vært 449.968 kroner basert på de siste tre måneder før permisjonen.
+            Det vises forøvrig til klagen i sin helhet.
+
+            VURDERING AV KLAGEN
+            Klager har arbeidet hos Sweet Memories Studio AS siden oktober 2016. I melding fra NAV Familie- og pensjonsytelser 090119 ble klager bedt om å fortelle NAV om hennes arbeidssituasjon det siste året på grunn av stort avvik mellom månedslønn opplyst av arbeidsgiver og sammenligningsgrunnlaget. Endringer i registrering til A-inntekt som viser at klager gikk fra 60 % til 100 % stilling ble ikke gjort før 140119.
+            Inntektsgrunnlaget fastsettes til sammenligningsgrunnlaget på 284947 kroner. Ifølge rundskriv § 8-30 skal sammenligningsgrunnlaget legges til grunn dersom det sannsynlig at personen fremover ville hatt en inntekt lik den som har blitt rapportert inn de siste 12 kalendermånedene. Dette gjelder også når avviket i inntektene skyldes sesongsvingninger eller uregelmessig tilknytning til arbeidslivet.
+            Vi har vurdert at det ikke har skjedd en fast og varig endring i klagers arbeidssituasjon fordi endringer i Aa-registeret ble gjort i etterkant av at klager ble gjort oppmerksom på avvik mellom månedsinntekt opplyst av arbeidsgiver og sammenligningsgrunnlaget.
+
+            Vi finner at sammenligningsgrunnlaget på 284.947 kroner er representativt og beregningsgrunnlaget er derfor fastsatt til 284.947 kroner.
+            Vedtaket vårt fastholdes og klagen overføres NAV Klageinstans for ny vurdering.
+        </fritekst>
+        <fristDato>2019-06-24</fristDato>
+    </fag>
+</brevdata>
