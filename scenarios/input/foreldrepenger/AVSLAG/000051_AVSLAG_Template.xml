@@ -1,10 +1,7 @@
 <brevdata>
     <felles>
-        <spraakkode>EN</spraakkode>
-        <fagsaksnummer>140258233</fagsaksnummer>
-        <signerendeSaksbehandler>
-            <signerendeSaksbehandlerNavn>z992291</signerendeSaksbehandlerNavn>
-        </signerendeSaksbehandler>
+        <spraakkode>{sprakkode}</spraakkode>
+        <fagsaksnummer>138487521</fagsaksnummer>
         <automatiskBehandlet>true</automatiskBehandlet>
         <sakspart>
             <sakspartId>10092134402</sakspartId>
@@ -17,8 +14,8 @@
             <mottakerNavn>RISPBUSK LEALAUS</mottakerNavn>
             <mottakerAdresse>
                 <adresselinje1>SANNERGATA 2</adresselinje1>
-                <postNr>0557</postNr>
-                <poststed>OSLO</poststed>
+                <postNr>1412</postNr>
+                <poststed>SOFIEMYR</poststed>
                 <land>NORGE</land>
             </mottakerAdresse>
         </mottaker>
@@ -38,15 +35,16 @@
                 <poststed>OSLO</poststed>
             </postadresse>
         </kontaktInformasjon>
-        <dokumentDato>2019-10-21</dokumentDato>
+        <dokumentDato>2019-08-15</dokumentDato>
     </felles>
     <fag>
-        <behandlingsType>MEDHOLD</behandlingsType>
-        <behandlingsresultat>
-            <belop>83140.0</belop>
-        </behandlingsresultat>
-        <personstatus>ANNET</personstatus>
-        <sokersNavn>RISPBUSK LEALAUS</sokersNavn>
+        <behandlingsType>SØKNAD</behandlingsType>
+        <relasjonsKode>FAR</relasjonsKode>
+        <gjelderFoedsel>true</gjelderFoedsel>
+        <antallBarn>1</antallBarn>
+        <skjaeringstidspunktPassert>false</skjaeringstidspunktPassert>
+        <avslagsAarsak>1003</avslagsAarsak>
         <klageFristUker>6</klageFristUker>
+        <vilkaarType>FP_VK_1</vilkaarType>
     </fag>
 </brevdata>

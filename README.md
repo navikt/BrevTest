@@ -32,3 +32,6 @@ INNSVP
 VEDMED - Done
 ANKEBO
 VEDOGA
+
+Example diff-pdf
+diff-pdf --view  scenarios/output/foreldrepenger/FORLEN/NB/000056_FORLEN_NB_SC1.pdf scenarios/baseline/foreldrepenger/FORLEN/NB/000056_FORLEN_NB_SC10.pdf

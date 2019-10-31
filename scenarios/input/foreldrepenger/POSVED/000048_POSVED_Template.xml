@@ -1,10 +1,7 @@
 <brevdata>
     <felles>
-        <spraakkode>NB</spraakkode>
+        <spraakkode>{sprakkode}</spraakkode>
         <fagsaksnummer>140258233</fagsaksnummer>
-        <signerendeSaksbehandler>
-            <signerendeSaksbehandlerNavn>z992291</signerendeSaksbehandlerNavn>
-        </signerendeSaksbehandler>
         <automatiskBehandlet>true</automatiskBehandlet>
         <sakspart>
             <sakspartId>10092134402</sakspartId>
@@ -45,7 +42,7 @@
         <behandlingsresultat>
             <belop>83140.0</belop>
         </behandlingsresultat>
-        <personstatus>DOD</personstatus>
+        <personstatus>ANNET</personstatus>
         <sokersNavn>RISPBUSK LEALAUS</sokersNavn>
         <klageFristUker>6</klageFristUker>
     </fag>

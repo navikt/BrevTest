@@ -1,0 +1,139 @@
+<brevdata>
+    <felles>
+        <spraakkode>{sprakkode}</spraakkode>
+        <fagsaksnummer>138487521</fagsaksnummer>
+        <automatiskBehandlet>true</automatiskBehandlet>
+        <sakspart>
+            <sakspartId>10092134402</sakspartId>
+            <sakspartTypeKode>PERSON</sakspartTypeKode>
+            <sakspartNavn>RISPBUSK LEALAUS</sakspartNavn>
+        </sakspart>
+        <mottaker>
+            <mottakerId>10092134402</mottakerId>
+            <mottakerTypeKode>PERSON</mottakerTypeKode>
+            <mottakerNavn>RISPBUSK LEALAUS</mottakerNavn>
+            <mottakerAdresse>
+                <adresselinje1>SANNERGATA 2</adresselinje1>
+                <postNr>7023</postNr>
+                <poststed>TRONDHEIM</poststed>
+                <land>NORGE</land>
+            </mottakerAdresse>
+        </mottaker>
+        <navnAvsenderEnhet>NAV Familie- og pensjonsytelser</navnAvsenderEnhet>
+        <kontaktInformasjon>
+            <kontaktTelefonnummer>55553333</kontaktTelefonnummer>
+            <returadresse>
+                <navEnhetsNavn>NAV Familie- og pensjonsytelser</navEnhetsNavn>
+                <adresselinje>Postboks 6600 Etterstad</adresselinje>
+                <postNr>0607</postNr>
+                <poststed>OSLO</poststed>
+            </returadresse>
+            <postadresse>
+                <navEnhetsNavn>NAV Familie- og pensjonsytelser</navEnhetsNavn>
+                <adresselinje>Postboks 6600 Etterstad</adresselinje>
+                <postNr>0607</postNr>
+                <poststed>OSLO</poststed>
+            </postadresse>
+        </kontaktInformasjon>
+        <dokumentDato>2019-09-12</dokumentDato>
+    </felles>
+    <fag>
+        <behandlingsType>REVURDERING</behandlingsType>
+        <relasjonskode>MOR</relasjonskode>
+        <behandlingsResultat>FORELDREPENGER_ENDRET</behandlingsResultat>
+        <mottattDato>2019-06-04</mottattDato>
+        <dekningsgrad>100</dekningsgrad>
+        <bruttoBeregningsgrunnlag>597000</bruttoBeregningsgrunnlag>
+        <dagsats>2296</dagsats>
+        <månedsbeløp>49746</månedsbeløp>
+        <stønadsperiodeFom>2019-07-22</stønadsperiodeFom>
+        <stønadsperiodeTom>2019-11-14</stønadsperiodeTom>
+        <totalBrukerAndel>0</totalBrukerAndel>
+        <totalArbeidsgiverAndel>1</totalArbeidsgiverAndel>
+        <antallArbeidsgivere>1</antallArbeidsgivere>
+        <annenForelderHarRett>true</annenForelderHarRett>
+        <aleneomsorg>IKKE_VURDERT</aleneomsorg>
+        <ikkeOmsorg>false</ikkeOmsorg>
+        <antallBarn>1</antallBarn>
+        <barnErFødt>true</barnErFødt>
+        <fødselsHendelse>true</fødselsHendelse>
+        <gjelderFoedsel>true</gjelderFoedsel>
+        <dagerTaptFørTermin>6</dagerTaptFørTermin>
+        <antallPerioder>2</antallPerioder>
+        <antallInnvilget>1</antallInnvilget>
+        <antallAvslag>1</antallAvslag>
+        <prematurDager>0</prematurDager>
+        <besteBeregning>false</besteBeregning>
+        <periodeListe>
+            <periode>
+                <innvilget>true</innvilget>
+                <årsak>2006</årsak>
+                <periodeFom>2019-07-22</periodeFom>
+                <periodeTom>2019-11-14</periodeTom>
+                <periodeDagsats>2296</periodeDagsats>
+                <antallTapteDager>0</antallTapteDager>
+                <arbeidsforholdListe>
+                    <arbeidsforhold>
+                        <arbeidsgiverNavn>NTNU FAKULTET FOR ØKONOMI</arbeidsgiverNavn>
+                        <aktivitetDagsats>2296</aktivitetDagsats>
+                        <gradering>false</gradering>
+                        <uttaksgrad>100</uttaksgrad>
+                        <prosentArbeid>0</prosentArbeid>
+                        <stillingsprosent>100</stillingsprosent>
+                        <utbetalingsgrad>100</utbetalingsgrad>
+                    </arbeidsforhold>
+                </arbeidsforholdListe>
+            </periode>
+            <periode>
+                <innvilget>false</innvilget>
+                <årsak>4002</årsak>
+                <periodeFom>2019-11-15</periodeFom>
+                <periodeTom>2019-11-22</periodeTom>
+                <periodeDagsats>0</periodeDagsats>
+                <antallTapteDager>0</antallTapteDager>
+                <arbeidsforholdListe>
+                    <arbeidsforhold>
+                        <arbeidsgiverNavn>NTNU FAKULTET FOR ØKONOMI</arbeidsgiverNavn>
+                        <aktivitetDagsats>0</aktivitetDagsats>
+                        <gradering>false</gradering>
+                        <uttaksgrad>0</uttaksgrad>
+                        <prosentArbeid>0</prosentArbeid>
+                        <stillingsprosent>100</stillingsprosent>
+                        <utbetalingsgrad>0</utbetalingsgrad>
+                    </arbeidsforhold>
+                </arbeidsforholdListe>
+            </periode>
+        </periodeListe>
+        <disponibleDager>0</disponibleDager>
+        <disponibleFellesDager>80</disponibleFellesDager>
+        <sisteDagAvSistePeriode>2019-11-14</sisteDagAvSistePeriode>
+        <seksG>599148</seksG>
+        <inntektOverSeksG>false</inntektOverSeksG>
+        <klageFristUker>6</klageFristUker>
+        <lovhjemmel>
+            <vurdering>§§ 14-9, 14-10 og 14-12</vurdering>
+            <beregning>§§ 14-7 og 8-30</beregning>
+        </lovhjemmel>
+        <konsekvensForYtelse>ENDRING_I_UTTAK</konsekvensForYtelse>
+        <antallBeregningsgrunnlagRegeler>1</antallBeregningsgrunnlagRegeler>
+        <beregningsgrunnlagRegelListe>
+            <beregningsgrunnlagRegel>
+                <regelStatus>ARBEIDSTAKER</regelStatus>
+                <antallArbeidsgivereIBeregningUtenEtterlønnSluttpakke>1</antallArbeidsgivereIBeregningUtenEtterlønnSluttpakke>
+                <SNNyoppstartet>false</SNNyoppstartet>
+                <andelListe>
+                    <andel>
+                        <status>ARBEIDSTAKER</status>
+                        <arbeidsgiverNavn>NTNU FAKULTET FOR ØKONOMI</arbeidsgiverNavn>
+                        <dagsats>2296</dagsats>
+                        <månedsinntekt>49750</månedsinntekt>
+                        <årsinntekt>597000</årsinntekt>
+                        <etterlønnSluttpakke>false</etterlønnSluttpakke>
+                    </andel>
+                </andelListe>
+            </beregningsgrunnlagRegel>
+        </beregningsgrunnlagRegelListe>
+        <forMyeUtbetalt>INGEN</forMyeUtbetalt>
+        <inntektMottattArbgiver>false</inntektMottattArbgiver>
+    </fag>
+</brevdata>

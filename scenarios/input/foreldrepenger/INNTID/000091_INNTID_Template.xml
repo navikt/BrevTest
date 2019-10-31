@@ -1,10 +1,7 @@
 <brevdata>
     <felles>
-        <spraakkode>NB</spraakkode>
-        <fagsaksnummer>140258233</fagsaksnummer>
-        <signerendeSaksbehandler>
-            <signerendeSaksbehandlerNavn>z992291</signerendeSaksbehandlerNavn>
-        </signerendeSaksbehandler>
+        <spraakkode>{sprakkode}</spraakkode>
+        <fagsaksnummer>140706953</fagsaksnummer>
         <automatiskBehandlet>true</automatiskBehandlet>
         <sakspart>
             <sakspartId>10092134402</sakspartId>
@@ -17,7 +14,7 @@
             <mottakerNavn>RISPBUSK LEALAUS</mottakerNavn>
             <mottakerAdresse>
                 <adresselinje1>SANNERGATA 2</adresselinje1>
-                <postNr>0557</postNr>
+                <postNr>0281</postNr>
                 <poststed>OSLO</poststed>
                 <land>NORGE</land>
             </mottakerAdresse>
@@ -38,15 +35,14 @@
                 <poststed>OSLO</poststed>
             </postadresse>
         </kontaktInformasjon>
-        <dokumentDato>2019-10-21</dokumentDato>
+        <dokumentDato>2019-08-19</dokumentDato>
     </felles>
     <fag>
         <behandlingsType>FOERSTEGANGSBEHANDLING</behandlingsType>
-        <behandlingsresultat>
-            <belop>83140.0</belop>
-        </behandlingsresultat>
-        <personstatus>DOD</personstatus>
-        <sokersNavn>RISPBUSK LEALAUS</sokersNavn>
-        <klageFristUker>6</klageFristUker>
+        <arbeidsgiverNavn>OSLO UNIVERSITETSSYKEHUS HF RUSPOLIKLINIKK ULLEVÅL</arbeidsgiverNavn>
+        <mottattDato>2019-08-19</mottattDato>
+        <periodeListe/>
+        <sokAntallUkerFor>4</sokAntallUkerFor>
+        <ytelseType>FP</ytelseType>
     </fag>
 </brevdata>
