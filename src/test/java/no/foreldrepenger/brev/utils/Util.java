@@ -20,7 +20,7 @@ public class Util {
     private static String username;
     private static String password;
     private static String url;
-    static final String PROPERTY_FILE = "test.properties";
+    static final String PROPERTY_FILE = "ezbrev.properties";
 
     public static void lagPDF(String filename, String base64Dokument) {
         File file = new File(filename);
