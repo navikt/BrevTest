@@ -2,7 +2,7 @@
     <felles>
         <spraakkode>{sprakkode}</spraakkode>
         <fagsaksnummer>140258233</fagsaksnummer>
-        <automatiskBehandlet>true</automatiskBehandlet>
+        <automatiskBehandlet>{automatiskBehandlet}</automatiskBehandlet>
         <sakspart>
             <sakspartId>10092134402</sakspartId>
             <sakspartTypeKode>PERSON</sakspartTypeKode>
@@ -38,11 +38,11 @@
         <dokumentDato>2019-10-21</dokumentDato>
     </felles>
     <fag>
-        <behandlingsType>FOERSTEGANGSBEHANDLING</behandlingsType>
+        <behandlingsType>{behandlingsType}</behandlingsType>
         <behandlingsresultat>
             <belop>83140.0</belop>
         </behandlingsresultat>
-        <personstatus>ANNET</personstatus>
+        <personstatus>{personstatus}</personstatus>
         <sokersNavn>RISPBUSK LEALAUS</sokersNavn>
         <klageFristUker>6</klageFristUker>
     </fag>

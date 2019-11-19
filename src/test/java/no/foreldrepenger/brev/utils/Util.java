@@ -1,9 +1,9 @@
 package no.foreldrepenger.brev.utils;
 
-import static io.restassured.RestAssured.given;
+import io.restassured.http.ContentType;
+import io.restassured.response.Response;
 
 import java.io.File;
-import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
@@ -13,14 +13,14 @@ import java.util.Base64;
 import java.util.Map;
 import java.util.Properties;
 
-import io.restassured.http.ContentType;
-import io.restassured.response.Response;
+import static io.restassured.RestAssured.given;
 
 public class Util {
 
-    static String username;
-    static String password;
-    static String url;
+    private static String username;
+    private static String password;
+    private static String url;
+    static final String PROPERTY_FILE = "test.properties";
 
     public static void lagPDF(String filename, String base64Dokument) {
         File file = new File(filename);
@@ -53,7 +53,7 @@ public class Util {
 
     private static void lesProperties() {
 
-        try (InputStream input = new FileInputStream("C:\\Workspace\\BrevTest\\src\\test\\resources\\test.properties")) {
+        try (InputStream input = Util.class.getClassLoader().getResourceAsStream(PROPERTY_FILE)) {
 
             Properties prop = new Properties();
 

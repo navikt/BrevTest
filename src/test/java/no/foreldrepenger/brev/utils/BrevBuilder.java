@@ -22,11 +22,11 @@ public class BrevBuilder {
         return this;
     }
 
-    public BrevBuilder setPersonStatus(String personStatus) {
-        if (personStatus.equals("DEFAULT"))
-            this.brevXML = brevXML.replace("{personStatus}", "ANNET");
+    public BrevBuilder setPersonStatus(String personstatus) {
+        if (personstatus.equals("DEFAULT"))
+            this.brevXML = brevXML.replace("{personstatus}", "ANNET");
         else
-            this.brevXML = brevXML.replace("{personStatus}", personStatus);
+            this.brevXML = brevXML.replace("{personstatus}", personstatus);
 
         return this;
     }
@@ -70,6 +70,11 @@ public class BrevBuilder {
 
     public BrevBuilder setInnsynReslutatType(String innsynReslutatType) {
         this.brevXML = brevXML.replace("{innsynReslutatType}", innsynReslutatType);
+        return this;
+    }
+
+    public BrevBuilder setAutomatiskBehandlet(String automatiskBehandlet) {
+        this.brevXML = brevXML.replace("{automatiskBehandlet}", automatiskBehandlet);
         return this;
     }
 }

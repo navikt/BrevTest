@@ -42,7 +42,7 @@
         <behandlingsfristUker>6</behandlingsfristUker>
         <variant>{variant}</variant>
         <antallBarn>{antallBarn}</antallBarn>
-        <personstatus>ANNET</personstatus>
+        <personstatus>{personstatus}</personstatus>
         <sokersNavn>RISPBUSK LEALAUS</sokersNavn>
     </fag>
 </brevdata>

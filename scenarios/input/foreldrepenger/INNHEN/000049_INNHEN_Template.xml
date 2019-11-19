@@ -44,6 +44,6 @@
         <sokersNavn>REKSLEN ELINE SØRHUS</sokersNavn>
         <ytelseType>{ytelse}</ytelseType>
         <behandlingsType>{behandlingsType}</behandlingsType>
-        <personstatus>{personStatus}</personstatus>
+        <personstatus>{personstatus}</personstatus>
     </fag>
 </brevdata>
