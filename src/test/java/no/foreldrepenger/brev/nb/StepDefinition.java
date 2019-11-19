@@ -110,7 +110,27 @@ public class StepDefinition {
     }
 
     @And("with AutomatiskBehandlet {string}")
-    public void withAutomatiskBehandletAutomatiskBehandlet(String automatiskBehandlet) {
+    public void withAutomatiskBehandlet(String automatiskBehandlet) {
         brevBuilder.setAutomatiskBehandlet(automatiskBehandlet);
+    }
+
+    @And("with vilkaarType {string}")
+    public void withVilkaarTypeVilkaarType(String vilkaarType) {
+        brevBuilder.setVilkaarType(vilkaarType);
+    }
+
+    @And("with avslagsÅrsak {string}")
+    public void withAvslagsÅrsakAvslagsÅrsak(String avslagsAarsak) {
+        brevBuilder.setAvslagsAarsak(avslagsAarsak);
+    }
+
+    @And("with GjelderFoedsel {string}")
+    public void withGjelderFoedselGjelderFoedsel(String gjelderFoedsel) {
+        brevBuilder.setGjelderFoedsel(gjelderFoedsel);
+    }
+
+    @And("with skjaeringstidspunktPassert {string}")
+    public void withSkjaeringstidspunktPassertSkjaeringstidspunktPassert(String skjaeringstidspunktPassert) {
+        brevBuilder.setSkjaeringstidspunktPassert(skjaeringstidspunktPassert);
     }
 }

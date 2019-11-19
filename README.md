@@ -9,7 +9,7 @@ Funksjonell Beskrivelse av Alle Brev i Confluence - https://confluence.adeo.no/d
 * AVSLAG - Påbegynt
 * AVSLFP - Ikke påbegynt
 * FOROPT - Ikke påbegynt
-* FORLEN - Påbegynt
+* FORLEN - Påbegynt (Mangler korrekt baseline. Mangler riktig dokumentasjon for dette.)
 * FORLME - Ikke påbegynt
 * FORLTS - Ikke påbegynt
 * FRITKS - Ikke påbegynt

@@ -77,4 +77,24 @@ public class BrevBuilder {
         this.brevXML = brevXML.replace("{automatiskBehandlet}", automatiskBehandlet);
         return this;
     }
+
+    public BrevBuilder setVilkaarType(String vilkaarType) {
+        this.brevXML = brevXML.replace("{vilkaarType}", vilkaarType);
+        return this;
+    }
+
+    public BrevBuilder setAvslagsAarsak(String avslagsAarsak) {
+        this.brevXML = brevXML.replace("{avslagsAarsak}", avslagsAarsak);
+        return this;
+    }
+
+    public BrevBuilder setGjelderFoedsel(String gjelderFoedsel) {
+        this.brevXML = brevXML.replace("{gjelderFoedsel}", gjelderFoedsel);
+        return this;
+    }
+
+    public BrevBuilder setSkjaeringstidspunktPassert(String skjaeringstidspunktPassert) {
+        this.brevXML = brevXML.replace("{skjaeringstidspunktPassert}", skjaeringstidspunktPassert);
+        return this;
+    }
 }
