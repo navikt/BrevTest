@@ -1,15 +1,12 @@
 <brevdata>
     <felles>
-        <spraakkode>NB</spraakkode>
-        <fagsaksnummer>140258233</fagsaksnummer>
-        <signerendeSaksbehandler>
-            <signerendeSaksbehandlerNavn>z992291</signerendeSaksbehandlerNavn>
-        </signerendeSaksbehandler>
+        <spraakkode>{sprakkode}</spraakkode>
+        <fagsaksnummer>138487521</fagsaksnummer>
         <automatiskBehandlet>true</automatiskBehandlet>
         <sakspart>
             <sakspartId>10092134402</sakspartId>
             <sakspartTypeKode>PERSON</sakspartTypeKode>
-            <sakspartNavn>RISPBUSK LEALAUS</sakspartNavn>
+            <sakspartNavn>SMEDSVIG ANDERS CARLSEN</sakspartNavn>
         </sakspart>
         <mottaker>
             <mottakerId>10092134402</mottakerId>
@@ -17,8 +14,8 @@
             <mottakerNavn>RISPBUSK LEALAUS</mottakerNavn>
             <mottakerAdresse>
                 <adresselinje1>SANNERGATA 2</adresselinje1>
-                <postNr>0557</postNr>
-                <poststed>OSLO</poststed>
+                <postNr>1365</postNr>
+                <poststed>BLOMMENHOLM</poststed>
                 <land>NORGE</land>
             </mottakerAdresse>
         </mottaker>
@@ -38,16 +35,29 @@
                 <poststed>OSLO</poststed>
             </postadresse>
         </kontaktInformasjon>
-        <dokumentDato>2019-10-21</dokumentDato>
+        <dokumentDato>2019-06-21</dokumentDato>
     </felles>
     <fag>
         <behandlingsType>REVURDERING</behandlingsType>
-        <behandlingsresultat>
-            <belop>83140.0</belop>
-            <differanse>4000</differanse>
-        </behandlingsresultat>
+        <sokersNavn>SMEDSVIG ANDERS CARLSEN</sokersNavn>
         <personstatus>ANNET</personstatus>
-        <sokersNavn>RISPBUSK LEALAUS</sokersNavn>
+        <relasjonskode>FAR</relasjonskode>
+        <fomStonadsdato>2019-03-01</fomStonadsdato>
+        <tomStonadsdato>2018-09-02</tomStonadsdato>
+        <opphorDato>2018-09-03</opphorDato>
+        <gjelderFoedsel>true</gjelderFoedsel>
+        <antallBarn>1</antallBarn>
+        <halvG>48442</halvG>
+        <antallAarsaker>2</antallAarsaker>
+        <aarsakListe>
+            <avslagsAarsak>
+                <avslagsAarsakKode>4099</avslagsAarsakKode>
+            </avslagsAarsak>
+            <avslagsAarsak>
+                <avslagsAarsakKode>1035</avslagsAarsakKode>
+            </avslagsAarsak>
+        </aarsakListe>
         <klageFristUker>6</klageFristUker>
+        <lovhjemmelForAvslag>§ 14-6</lovhjemmelForAvslag>
     </fag>
 </brevdata>

@@ -1,0 +1,77 @@
+<brevdata>
+    <felles>
+        <spraakkode>{sprakkode}</spraakkode>
+        <fagsaksnummer>138487521</fagsaksnummer>
+        <automatiskBehandlet>true</automatiskBehandlet>
+        <sakspart>
+            <sakspartId>10092134402</sakspartId>
+            <sakspartTypeKode>PERSON</sakspartTypeKode>
+            <sakspartNavn>RISPBUSK LEALAUS</sakspartNavn>
+        </sakspart>
+        <mottaker>
+            <mottakerId>10092134402</mottakerId>
+            <mottakerTypeKode>PERSON</mottakerTypeKode>
+            <mottakerNavn>RISPBUSK LEALAUS</mottakerNavn>
+            <mottakerAdresse>
+                <adresselinje1>SANNERGATA 2</adresselinje1>
+                <postNr>4311</postNr>
+                <poststed>HOMMERSÅK</poststed>
+                <land>NORGE</land>
+            </mottakerAdresse>
+        </mottaker>
+        <navnAvsenderEnhet>NAV Klageinstans</navnAvsenderEnhet>
+        <kontaktInformasjon>
+            <kontaktTelefonnummer>21071730</kontaktTelefonnummer>
+            <returadresse>
+                <navEnhetsNavn>NAV Klageinstans</navEnhetsNavn>
+                <adresselinje>Postboks 6600 Etterstad</adresselinje>
+                <postNr>0607</postNr>
+                <poststed>OSLO</poststed>
+            </returadresse>
+            <postadresse>
+                <navEnhetsNavn>NAV Klageinstans</navEnhetsNavn>
+                <adresselinje>Postboks 6600 Etterstad</adresselinje>
+                <postNr>0607</postNr>
+                <poststed>OSLO</poststed>
+            </postadresse>
+        </kontaktInformasjon>
+        <dokumentDato>2019-09-03</dokumentDato>
+    </felles>
+    <fag>
+        <ytelseType>FP</ytelseType>
+        <fritekst>- Søknad om foreldrepenger av 10. mai 2019
+            - Inntekter innberettet i A-ordningen i opptjeningsperioden
+            - Vedtak om avslag på foreldrepenger av 15. mai 2019
+            - Klage av 22. mai 2019
+            - Gjeldende regelverk og retningslinjer
+
+            I klagen din har du lagt vekt på:
+            - At du ikke kunne vedlegge bekreftelse på arbeidsforhold i utlandet i din søknad
+            - Vedtaket er på grunn av dette fattet på ufullstendig grunnlag
+            - Du viser til bekreftelse på arbeid fra Environmental Protection Authority
+
+            Vurderingen vår
+            Du søkte om foreldrepenger den 10. mai 2019 med oppgitt termin 12. juni 2019. Søknaden din ble avslått i vedtak datert 15. mai 2019, begrunnet med at du ikke har hatt pensjonsgivende inntekt i seks av de siste ti måneder.
+
+            Retten til foreldrepenger opptjenes gjennom yrkesaktivitet med pensjonsgivende inntekt eller ved å motta ytelser som likestilles med arbeid i minst seks av de siste ti månedene før foreldrepengeperioden starter, for eksempel foreldrepenger og sykepenger.
+
+            Foreldrepengeperioden starter senest tre uker før termindatoen. Du hadde termin 12. juni 2019, og søkte om foreldrepenger fra 22. mai 2019. Opptjeningsperioden blir som følge av dette fra 21. juli 2018 til og med 21. mai 2019.
+
+            Du mener at din inntekt fra arbeidsforholdet Environmental Protection Authority viser at du har vært yrkesaktiv i seks av de siste ti månedene. Vi påpeker at Environmental Protection Authority ikke har innrapportert pensjonsgivende inntekt på deg og kan derfor ikke medregnes i opptjeningsperioden.
+
+            Pensjonsgivende inntekt som kan medregnes i opptjeningsperioden er fra Miljødirektoratet Oslo. Det er innrapportert inntekt fra februar til og med mai.
+            Dette utgjør 4 måneder og 6 dager.
+
+            Trygderetten har uttalt at vilkåret om opptjening er oppfylt dersom du har jobbet til sammen 5 måneder og 26 dager.
+
+            Det er vår vurdering at du derfor ikke har opptjent rett til foreldrepenger.
+
+            Konklusjonen vår
+            Vi har kommet fram til at du ikke har rett til foreldrepenger, og gir deg derfor ikke medhold i klagen din.
+
+            Vedtaket er gjort etter folketrygdloven § 14-6.
+
+        </fritekst>
+        <klageFristUker>6</klageFristUker>
+    </fag>
+</brevdata>

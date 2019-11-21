@@ -1,10 +1,7 @@
 <brevdata>
     <felles>
-        <spraakkode>EN</spraakkode>
-        <fagsaksnummer>140258233</fagsaksnummer>
-        <signerendeSaksbehandler>
-            <signerendeSaksbehandlerNavn>z992291</signerendeSaksbehandlerNavn>
-        </signerendeSaksbehandler>
+        <spraakkode>{sprakkode}</spraakkode>
+        <fagsaksnummer>138487521</fagsaksnummer>
         <automatiskBehandlet>true</automatiskBehandlet>
         <sakspart>
             <sakspartId>10092134402</sakspartId>
@@ -17,8 +14,8 @@
             <mottakerNavn>RISPBUSK LEALAUS</mottakerNavn>
             <mottakerAdresse>
                 <adresselinje1>SANNERGATA 2</adresselinje1>
-                <postNr>0557</postNr>
-                <poststed>OSLO</poststed>
+                <postNr>9411</postNr>
+                <poststed>HARSTAD</poststed>
                 <land>NORGE</land>
             </mottakerAdresse>
         </mottaker>
@@ -38,15 +35,32 @@
                 <poststed>OSLO</poststed>
             </postadresse>
         </kontaktInformasjon>
-        <dokumentDato>2019-10-21</dokumentDato>
+        <dokumentDato>2019-08-11</dokumentDato>
     </felles>
     <fag>
-        <behandlingsType>FOERSTEGANGSBEHANDLING</behandlingsType>
-        <behandlingsresultat>
-            <belop>83140.0</belop>
-        </behandlingsresultat>
-        <personstatus>DOD</personstatus>
-        <sokersNavn>RISPBUSK LEALAUS</sokersNavn>
-        <klageFristUker>6</klageFristUker>
+        <hovedoverskrift>Vi trenger opplysninger fra arbeidsgiveren din
+        </hovedoverskrift>
+        <brødtekst>Vi fikk søknaden din om foreldrepenger 26. juli 2019, men mangler opplysninger for å
+            kunne behandle den. Du må be arbeidsgiveren din sende inntektsmelding til NAV.
+
+            Hvis inntektsmeldingen allerede er sendt fra arbeidsgiver kan du se bort fra denne
+            henvendelsen.
+
+            _Søknaden kan bli avslått
+            Hvis vi ikke får opplysningene innen 1. september 2019, kan søknaden bli avslått.
+            Dette går fram av folketrygdloven § 21-3.
+
+            _Har du spørsmål?
+            Du finner nyttig informasjon på nav.no/familie. Du kan også kontakte oss på telefon 55553333.
+
+
+
+            Med vennlig hilsen
+            NAV Familie- og pensjonsytelser
+
+
+
+            Vedtaket har blitt automatisk saksbehandlet av vårt fagsystem. Vedtaksbrevet er derfor ikke underskrevet av saksbehandler.
+        </brødtekst>
     </fag>
 </brevdata>

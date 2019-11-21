@@ -1,11 +1,8 @@
 <brevdata>
     <felles>
-        <spraakkode>NB</spraakkode>
-        <fagsaksnummer>140258233</fagsaksnummer>
-        <signerendeSaksbehandler>
-            <signerendeSaksbehandlerNavn>z992291</signerendeSaksbehandlerNavn>
-        </signerendeSaksbehandler>
-        <automatiskBehandlet>true</automatiskBehandlet>
+        <spraakkode>{sprakkode}</spraakkode>
+        <fagsaksnummer>138487521</fagsaksnummer>
+        <automatiskBehandlet>false</automatiskBehandlet>
         <sakspart>
             <sakspartId>10092134402</sakspartId>
             <sakspartTypeKode>PERSON</sakspartTypeKode>
@@ -17,8 +14,8 @@
             <mottakerNavn>RISPBUSK LEALAUS</mottakerNavn>
             <mottakerAdresse>
                 <adresselinje1>SANNERGATA 2</adresselinje1>
-                <postNr>0557</postNr>
-                <poststed>OSLO</poststed>
+                <postNr>3512</postNr>
+                <poststed>HØNEFOSS</poststed>
                 <land>NORGE</land>
             </mottakerAdresse>
         </mottaker>
@@ -38,16 +35,20 @@
                 <poststed>OSLO</poststed>
             </postadresse>
         </kontaktInformasjon>
-        <dokumentDato>2019-10-21</dokumentDato>
+        <dokumentDato>2019-08-29</dokumentDato>
     </felles>
     <fag>
-        <behandlingsType>REVURDERING</behandlingsType>
-        <behandlingsresultat>
-            <belop>83140.0</belop>
-            <differanse>4000</differanse>
-        </behandlingsresultat>
-        <personstatus>ANNET</personstatus>
-        <sokersNavn>RISPBUSK LEALAUS</sokersNavn>
-        <klageFristUker>6</klageFristUker>
+        <terminDato>2019-03-11</terminDato>
+        <fristDato>2019-09-19</fristDato>
+        <fritekst>Du har lovlig oppholdstillatelse i Norge til og med 3.september 2019.
+
+            Rett til foreldrepenger er forutsatt lovlig oppholdstillatelse i Norge .
+
+            Vi ber deg sende bekreftelse fra Politi/Udi at du har søkt videre oppholdstillatelse innen utløpsdato samt
+            bekreftelse på at du har lovlig opphold i Norge under behandling av søknaden.
+        </fritekst>
+        <ytelseType>{ytelse}</ytelseType>
+        <antallBarn>1</antallBarn>
+        <advarselKode>ANNET</advarselKode>
     </fag>
 </brevdata>

@@ -1,11 +1,8 @@
 <brevdata>
     <felles>
-        <spraakkode>EN</spraakkode>
-        <fagsaksnummer>140258233</fagsaksnummer>
-        <signerendeSaksbehandler>
-            <signerendeSaksbehandlerNavn>z992291</signerendeSaksbehandlerNavn>
-        </signerendeSaksbehandler>
-        <automatiskBehandlet>false</automatiskBehandlet>
+        <spraakkode>{sprakkode}</spraakkode>
+        <fagsaksnummer>138487521</fagsaksnummer>
+        <automatiskBehandlet>true</automatiskBehandlet>
         <sakspart>
             <sakspartId>10092134402</sakspartId>
             <sakspartTypeKode>PERSON</sakspartTypeKode>
@@ -17,9 +14,8 @@
             <mottakerNavn>RISPBUSK LEALAUS</mottakerNavn>
             <mottakerAdresse>
                 <adresselinje1>SANNERGATA 2</adresselinje1>
-                <postNr>0557</postNr>
-                <poststed>OSLO</poststed>
-                <land>NORGE</land>
+                <adresselinje2>POLAND</adresselinje2>
+                <land>POLEN</land>
             </mottakerAdresse>
         </mottaker>
         <navnAvsenderEnhet>NAV Familie- og pensjonsytelser</navnAvsenderEnhet>
@@ -38,15 +34,17 @@
                 <poststed>OSLO</poststed>
             </postadresse>
         </kontaktInformasjon>
-        <dokumentDato>2019-10-21</dokumentDato>
+        <dokumentDato>2019-10-29</dokumentDato>
     </felles>
     <fag>
-        <behandlingsType>FOERSTEGANGSBEHANDLING</behandlingsType>
-        <behandlingsresultat>
-            <belop>83140.0</belop>
-        </behandlingsresultat>
-        <personstatus>ANNET</personstatus>
-        <sokersNavn>RISPBUSK LEALAUS</sokersNavn>
+        <ytelseType>FP</ytelseType>
+        <avvistGrunnListe>
+            <avvistGrunn>
+                <avvistGrunnKode>ETTER6UKER</avvistGrunnKode>
+            </avvistGrunn>
+        </avvistGrunnListe>
+        <antallAvvistGrunn>1</antallAvvistGrunn>
+        <lovhjemler>folketrygdloven § 21-12 og forvaltningsloven §§ 31 og 33</lovhjemler>
         <klageFristUker>6</klageFristUker>
     </fag>
 </brevdata>
