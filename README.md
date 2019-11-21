@@ -1,37 +1,42 @@
-Brev Akseptansetesting
+#Brev Akseptansetesting
 
 Vi bruker Cucumber Datatables for å kjøre brev xml mot EZBrev Endpoint. Fyll opp username og password i test.properties fil
 
-Funksjonell Beskrivelse av Alle Brev i Confluence - https://confluence.adeo.no/display/BOA/Foreldrepengerbrev+-+Funksjonell+beskrivelse
+Man kan finne sample BrevXML fra `dokument_felles` tabell i fpformidling database  
 
-**Status av Implementert Brev Tests**
+##Funksjonell Beskrivelse av Alle Brev i Confluence
+https://confluence.adeo.no/display/BOA/Foreldrepengerbrev+-+Funksjonell+beskrivelse
 
-INNHEN - Done
-POSVED - Done
-HENLEG - Done
-AVSLAG
-UENDRE
-REVURD
-FORLEN
-FORLME
-KLAGAV
-KLAGVE
-KLAGNY
-KLAGOV
-INSSKR - Done
-INNVFP
-OPPHOR
-INNTID
-AVSLFP
-FRITKS
-FORLTS
-FOROPT
-INNLYS
-INAFOR
-INNSVP
-VEDMED - Done
-ANKEBO
-VEDOGA
+##Implementert Brev Tests
 
-Example diff-pdf
-diff-pdf --view  scenarios/output/foreldrepenger/FORLEN/NB/000056_FORLEN_NB_SC1.pdf scenarios/baseline/foreldrepenger/FORLEN/NB/000056_FORLEN_NB_SC10.pdf
+* INNHEN
+* POSVED
+* HENLEG
+* AVSLAG
+* UENDRE
+* REVURD
+* FORLEN
+* FORLME
+* KLAGAV
+* KLAGVE
+* KLAGNY
+* KLAGOV
+* INSSKR
+* INNVFP
+* OPPHOR
+* INNTID
+* AVSLFP
+* FRITKS
+* FORLTS
+* FOROPT
+* INNLYS
+* INAFOR
+* INNSVP
+* VEDMED
+* ANKEBO
+* VEDOGA
+
+##Vise diff mellom PDF i GUI mode 
+For å vise diff mellom PDF i GUI mode 
+
+`diff-pdf --view  scenarios/output/foreldrepenger/FORLEN/NB/000056_FORLEN_NB_SC10.pdf scenarios/baseline/foreldrepenger/FORLEN/NB/000056_FORLEN_NB_SC10.pdf`
