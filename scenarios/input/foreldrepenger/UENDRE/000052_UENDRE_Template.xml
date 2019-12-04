@@ -38,6 +38,6 @@
         <dokumentDato>2019-08-26</dokumentDato>
     </felles>
     <fag>
-        <ytelseType>{ytelse}</ytelseType>
+        <ytelseType>{ytelseType}</ytelseType>
     </fag>
 </brevdata>

@@ -42,8 +42,8 @@
         <fristDato>2019-06-18</fristDato>
         <fritekst>lønnslipp</fritekst>
         <sokersNavn>REKSLEN ELINE SØRHUS</sokersNavn>
-        <ytelseType>{ytelse}</ytelseType>
+        <ytelseType>{ytelseType}</ytelseType>
         <behandlingsType>{behandlingsType}</behandlingsType>
-        <personstatus>{personStatus}</personstatus>
+        <personstatus>{personstatus}</personstatus>
     </fag>
 </brevdata>

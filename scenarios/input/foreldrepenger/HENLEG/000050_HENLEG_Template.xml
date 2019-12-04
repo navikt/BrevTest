@@ -38,7 +38,7 @@
         <dokumentDato>2019-06-24</dokumentDato>
     </felles>
     <fag>
-        <ytelseType>{ytelse}</ytelseType>
+        <ytelseType>{ytelseType}</ytelseType>
         <behandlingsType>{behandlingsType}</behandlingsType>
         <opphavType>{opphavType}</opphavType>
     </fag>

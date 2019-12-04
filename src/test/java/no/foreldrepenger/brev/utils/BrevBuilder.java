@@ -12,8 +12,8 @@ public class BrevBuilder {
         setYtelse("FP").setBehandlingsType("FOERSTEGANGSBEHANDLING").setPersonStatus("ANNET").setSprak("NB");
     }
 
-    public BrevBuilder setYtelse(String ytelse) {
-        this.brevXML = brevXML.replace("{ytelse}", ytelse);
+    public BrevBuilder setYtelse(String ytelseType) {
+        this.brevXML = brevXML.replace("{ytelseType}", ytelseType);
         return this;
     }
 
@@ -22,11 +22,11 @@ public class BrevBuilder {
         return this;
     }
 
-    public BrevBuilder setPersonStatus(String personStatus) {
-        if (personStatus.equals("DEFAULT"))
-            this.brevXML = brevXML.replace("{personStatus}", "ANNET");
+    public BrevBuilder setPersonStatus(String personstatus) {
+        if (personstatus.equals("DEFAULT"))
+            this.brevXML = brevXML.replace("{personstatus}", "ANNET");
         else
-            this.brevXML = brevXML.replace("{personStatus}", personStatus);
+            this.brevXML = brevXML.replace("{personstatus}", personstatus);
 
         return this;
     }
@@ -70,6 +70,31 @@ public class BrevBuilder {
 
     public BrevBuilder setInnsynReslutatType(String innsynReslutatType) {
         this.brevXML = brevXML.replace("{innsynReslutatType}", innsynReslutatType);
+        return this;
+    }
+
+    public BrevBuilder setAutomatiskBehandlet(String automatiskBehandlet) {
+        this.brevXML = brevXML.replace("{automatiskBehandlet}", automatiskBehandlet);
+        return this;
+    }
+
+    public BrevBuilder setVilkaarType(String vilkaarType) {
+        this.brevXML = brevXML.replace("{vilkaarType}", vilkaarType);
+        return this;
+    }
+
+    public BrevBuilder setAvslagsAarsak(String avslagsAarsak) {
+        this.brevXML = brevXML.replace("{avslagsAarsak}", avslagsAarsak);
+        return this;
+    }
+
+    public BrevBuilder setGjelderFoedsel(String gjelderFoedsel) {
+        this.brevXML = brevXML.replace("{gjelderFoedsel}", gjelderFoedsel);
+        return this;
+    }
+
+    public BrevBuilder setSkjaeringstidspunktPassert(String skjaeringstidspunktPassert) {
+        this.brevXML = brevXML.replace("{skjaeringstidspunktPassert}", skjaeringstidspunktPassert);
         return this;
     }
 }

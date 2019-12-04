@@ -38,13 +38,13 @@
         <dokumentDato>2019-08-15</dokumentDato>
     </felles>
     <fag>
-        <behandlingsType>SØKNAD</behandlingsType>
+        <behandlingsType>{behandlingsType}</behandlingsType>
         <relasjonsKode>FAR</relasjonsKode>
-        <gjelderFoedsel>true</gjelderFoedsel>
-        <antallBarn>1</antallBarn>
-        <skjaeringstidspunktPassert>false</skjaeringstidspunktPassert>
-        <avslagsAarsak>1003</avslagsAarsak>
+        <gjelderFoedsel>{gjelderFoedsel}</gjelderFoedsel>
+        <antallBarn>{antallBarn}</antallBarn>
+        <skjaeringstidspunktPassert>{skjaeringstidspunktPassert}</skjaeringstidspunktPassert>
+        <avslagsAarsak>{avslagsAarsak}</avslagsAarsak>
         <klageFristUker>6</klageFristUker>
-        <vilkaarType>FP_VK_1</vilkaarType>
+        <vilkaarType>{vilkaarType}</vilkaarType>
     </fag>
 </brevdata>

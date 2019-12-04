@@ -17,7 +17,7 @@
         <junit.version>5.5.2</junit.version>
         <rest.assured.version>4.1.2</rest.assured.version>
         <allure.version>2.13.0</allure.version>
-        <cucumber.version>4.8.0</cucumber.version>
+        <cucumber.version>4.7.4</cucumber.version>
     </properties>
 
     <dependencies>
@@ -60,6 +60,18 @@
             <groupId>io.cucumber</groupId>
             <artifactId>cucumber-junit</artifactId>
             <version>${cucumber.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>no.nav.modig</groupId>
+            <artifactId>modig-testcertificates</artifactId>
+            <version>1.2.5</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>io.cucumber</groupId>
+            <artifactId>cucumber-jvm</artifactId>
+            <version>1.2.6</version>
+            <type>pom</type>
         </dependency>
     </dependencies>
 

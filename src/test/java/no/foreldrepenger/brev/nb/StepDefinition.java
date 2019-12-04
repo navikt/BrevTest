@@ -36,7 +36,7 @@ public class StepDefinition {
         language = inputlanguage;
         brevMal = inputbrevMal;
         brevType = inputbrevType;
-        String scenarioMappe = "foreldrepenger/" + brevType + "/";
+        String scenarioMappe = "foreldrepenger/" + brevType;
         inputFormidlingXML = "scenarios/input/foreldrepenger/"+brevType+"/" + brevMal + "_" + brevType + "_Template.xml";
         baselineScenarioMappe = "scenarios/baseline/" + scenarioMappe + "/" + language + "/";
         inputScenarioMappe = "scenarios/input/" + scenarioMappe + "/" + language + "/";
@@ -81,6 +81,12 @@ public class StepDefinition {
         brevBuilder.setVariant(variant);
     }
 
+    @And("with the innsynReslutatType {string}")
+    public void withTheInnsynReslutatType(String innsynReslutatType) {
+        brevBuilder.setInnsynReslutatType(innsynReslutatType);
+    }
+
+
     @When("we generate brev based on the xml from ezbrev for the scenario {string}")
     public void we_generate_brev_based_on_the_xml_from_ezbrev(String scenario) {
 
@@ -103,8 +109,28 @@ public class StepDefinition {
         assertEquals(true, pdfCompare);
     }
 
-    @And("with the innsynReslutatType {string}")
-    public void withTheInnsynReslutatType(String innsynReslutatType) {
-        brevBuilder.setInnsynReslutatType(innsynReslutatType);
+    @And("with AutomatiskBehandlet {string}")
+    public void withAutomatiskBehandlet(String automatiskBehandlet) {
+        brevBuilder.setAutomatiskBehandlet(automatiskBehandlet);
+    }
+
+    @And("with vilkaarType {string}")
+    public void withVilkaarTypeVilkaarType(String vilkaarType) {
+        brevBuilder.setVilkaarType(vilkaarType);
+    }
+
+    @And("with avslagsÅrsak {string}")
+    public void withAvslagsÅrsakAvslagsÅrsak(String avslagsAarsak) {
+        brevBuilder.setAvslagsAarsak(avslagsAarsak);
+    }
+
+    @And("with GjelderFoedsel {string}")
+    public void withGjelderFoedselGjelderFoedsel(String gjelderFoedsel) {
+        brevBuilder.setGjelderFoedsel(gjelderFoedsel);
+    }
+
+    @And("with skjaeringstidspunktPassert {string}")
+    public void withSkjaeringstidspunktPassertSkjaeringstidspunktPassert(String skjaeringstidspunktPassert) {
+        brevBuilder.setSkjaeringstidspunktPassert(skjaeringstidspunktPassert);
     }
 }

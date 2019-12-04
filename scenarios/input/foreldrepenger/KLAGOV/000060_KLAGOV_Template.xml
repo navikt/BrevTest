@@ -38,7 +38,7 @@
         <dokumentDato>2019-06-03</dokumentDato>
     </felles>
     <fag>
-        <ytelseType>{ytelse}</ytelseType>
+        <ytelseType>{ytelseType}</ytelseType>
         <mottattDato>2019-02-06</mottattDato>
         <antallUker>14</antallUker>
         <fritekst>HVA KLAGESAKEN GJELDER

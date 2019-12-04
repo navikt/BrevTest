@@ -47,7 +47,7 @@
             Vi ber deg sende bekreftelse fra Politi/Udi at du har søkt videre oppholdstillatelse innen utløpsdato samt
             bekreftelse på at du har lovlig opphold i Norge under behandling av søknaden.
         </fritekst>
-        <ytelseType>{ytelse}</ytelseType>
+        <ytelseType>{ytelseType}</ytelseType>
         <antallBarn>1</antallBarn>
         <advarselKode>ANNET</advarselKode>
     </fag>
