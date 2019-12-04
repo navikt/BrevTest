@@ -38,7 +38,7 @@
         <dokumentDato>2019-06-27</dokumentDato>
     </felles>
     <fag>
-        <ytelseType>{ytelse}</ytelseType>
+        <ytelseType>{ytelseType}</ytelseType>
         <innsynResultatType>{innsynReslutatType}</innsynResultatType>
         <fritekst> </fritekst>
         <klageFristUker>3</klageFristUker>

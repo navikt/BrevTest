@@ -38,7 +38,7 @@
         <dokumentDato>2019-10-02</dokumentDato>
     </felles>
     <fag>
-        <ytelseType>{ytelse}</ytelseType>
+        <ytelseType>{ytelseType}</ytelseType>
         <behandlingsfristUker>6</behandlingsfristUker>
         <variant>{variant}</variant>
         <antallBarn>{antallBarn}</antallBarn>

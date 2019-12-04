@@ -38,11 +38,11 @@
         <dokumentDato>2019-08-19</dokumentDato>
     </felles>
     <fag>
-        <behandlingsType>FOERSTEGANGSBEHANDLING</behandlingsType>
+        <behandlingsType>{behandlingsType}</behandlingsType>
         <arbeidsgiverNavn>OSLO UNIVERSITETSSYKEHUS HF RUSPOLIKLINIKK ULLEVÅL</arbeidsgiverNavn>
         <mottattDato>2019-08-19</mottattDato>
         <periodeListe/>
         <sokAntallUkerFor>4</sokAntallUkerFor>
-        <ytelseType>FP</ytelseType>
+        <ytelseType>{ytelseType}</ytelseType>
     </fag>
 </brevdata>

@@ -12,8 +12,8 @@ public class BrevBuilder {
         setYtelse("FP").setBehandlingsType("FOERSTEGANGSBEHANDLING").setPersonStatus("ANNET").setSprak("NB");
     }
 
-    public BrevBuilder setYtelse(String ytelse) {
-        this.brevXML = brevXML.replace("{ytelse}", ytelse);
+    public BrevBuilder setYtelse(String ytelseType) {
+        this.brevXML = brevXML.replace("{ytelseType}", ytelseType);
         return this;
     }
 

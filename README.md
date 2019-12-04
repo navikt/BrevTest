@@ -6,7 +6,7 @@ Funksjonell Beskrivelse av Alle Brev i Confluence - https://confluence.adeo.no/d
 
 **Status av Implementert Brev Tests**
 * ANKEBO - Ikke påbegynt
-* AVSLAG - Påbegynt
+* AVSLAG - Påbegynt (Mangler korrekt baseline)
 * AVSLFP - Ikke påbegynt
 * FOROPT - Ikke påbegynt
 * FORLEN - Påbegynt (Mangler korrekt baseline. Mangler riktig dokumentasjon for dette.)
@@ -27,7 +27,7 @@ Funksjonell Beskrivelse av Alle Brev i Confluence - https://confluence.adeo.no/d
 * KLAGVE - Påbegynt
 * OPPHOR - Påbegynt
 * POSVED - Done (Baseline oppdatert 18.11.19)
-* REVURD - Påbegynt
+* REVURD - Påbegynt 
 * UENDRE - Påbegynt
 * VEDMED - Done (Baseline oppdatert 18.11.19)
 * VEDOGA - Ikke påbegynt
