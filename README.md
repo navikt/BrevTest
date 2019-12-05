@@ -19,7 +19,7 @@ Man kan finne sample BrevXML fra `dokument_felles` tabell i fpformidling databas
 * INNLYS - Påbegynt
 * INNSVP - Ikke påbegynt
 * INNTID - Påbegynt
-* INNVFP - Ikke påbegynt
+* INNVFP - Implementert (mangler testscenario og baseline)
 * INSSKR - Done (Baseline oppdatert 18.11.19)
 * KLAGAV - Påbegynt
 * KLAGNY - Påbegynt

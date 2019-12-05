@@ -1,19 +1,19 @@
 package no.foreldrepenger.brev.nb;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
-
-import java.io.IOException;
-import java.util.HashMap;
-import java.util.Map;
-
+import com.testautomationguru.utility.CompareMode;
 import com.testautomationguru.utility.PDFUtil;
-
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import no.foreldrepenger.brev.utils.BrevBuilder;
 import no.foreldrepenger.brev.utils.Util;
+
+import java.io.IOException;
+import java.util.HashMap;
+import java.util.Map;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class StepDefinition {
 
@@ -50,7 +50,6 @@ public class StepDefinition {
         brevBuilder = new BrevBuilder(brevTemplate).setSprak(language);
     }
 
-
     @Given("with the ytelse {string}")
     public void with_the_ytelse_ytelse(String ytelse) {
         brevBuilder = brevBuilder.setYtelse(ytelse);
@@ -62,8 +61,8 @@ public class StepDefinition {
     }
 
     @Given("with the personStatus {string}")
-    public void with_the_personStatus(String personStatus) {
-       brevBuilder.setPersonStatus(personStatus);
+    public void with_the_personStatus(String personstatus) {
+       brevBuilder.setPersonstatus(personstatus);
     }
 
     @Given("with the OpphavType {string}")
@@ -85,6 +84,102 @@ public class StepDefinition {
     public void withTheInnsynReslutatType(String innsynReslutatType) {
         brevBuilder.setInnsynReslutatType(innsynReslutatType);
     }
+
+    @And("with AutomatiskBehandlet {string}")
+    public void withAutomatiskBehandlet(String automatiskBehandlet) {
+        brevBuilder.setAutomatiskBehandlet(automatiskBehandlet);
+    }
+
+    @And("with vilkaarType {string}")
+    public void withVilkaarTypeVilkaarType(String vilkaarType) {
+        brevBuilder.setVilkaarType(vilkaarType);
+    }
+
+    @And("with avslagsÅrsak {string}")
+    public void withAvslagsÅrsakAvslagsÅrsak(String avslagsAarsak) {
+        brevBuilder.setAvslagsAarsak(avslagsAarsak);
+    }
+
+    @And("with GjelderFoedsel {string}")
+    public void withGjelderFoedsel(String gjelderFoedsel) {
+        brevBuilder.setGjelderFoedsel(gjelderFoedsel);
+    }
+
+    @And("with skjaeringstidspunktPassert {string}")
+    public void withSkjaeringstidspunktPassertSkjaeringstidspunktPassert(String skjaeringstidspunktPassert) {
+        brevBuilder.setSkjaeringstidspunktPassert(skjaeringstidspunktPassert);
+    }
+
+    @And("with relasjonskode {string}")
+    public void withRelasjonskode(String relasjonskode) {
+        brevBuilder.setRelasjonskode(relasjonskode);
+    }
+
+    @And("with behandlingsResultat {string}")
+    public void withBehandlingsResultat(String behandlingsResultat) {
+        brevBuilder.setBehandlingsResultat(behandlingsResultat);
+    }
+
+    @And("with konsekvensForYtelse {string}")
+    public void withKonsekvensForYtelse(String konsekvensForYtelse) {
+        brevBuilder.setKonsekvensForYtelse(konsekvensForYtelse);
+    }
+
+    @And("with regelStatus {string}")
+    public void withRegelStatus(String regelStatus) {
+        brevBuilder.setRegelStatus(regelStatus);
+    }
+
+    @And("with status {string}")
+    public void withStatus(String status) {
+        brevBuilder.setStatus(status);
+    }
+
+    @And("periode {int} with årsak {string}, gradering {string} og antallTapteDager {string}")
+    public void periodeWithÅrsakGraderingOgAntallTapteDager(int periodenummer, String årsak, String gradering, String antallTapteDager) {
+        brevBuilder.setÅrsakForPeriode(periodenummer, årsak);
+        brevBuilder.setGraderingForPeriode(periodenummer, gradering);
+        brevBuilder.setAntallTapteDager(periodenummer, antallTapteDager);
+    }
+
+    @And("periode {int} with årsak {string}, gradering = false og antallTapteDager {string}")
+    public void periodeWithÅrsakogAntallTapteDager(int periodenummer, String årsak, String antallTapteDager) {
+        brevBuilder.setÅrsakForPeriode(periodenummer, årsak);
+        brevBuilder.setGraderingForPeriode(periodenummer, "false");
+        brevBuilder.setAntallTapteDager(periodenummer, antallTapteDager);
+    }
+
+    @And("with dodsdato {string}")
+    public void withDodsdato(String dodsdato) {
+        brevBuilder.setDodsdato(dodsdato);
+    }
+
+    @And("with annenForelderHarRettVurdert {string}")
+    public void withAnnenForelderHarRettVurdert(String annenForelderHarRettVurdert) {
+        brevBuilder.setAnnenForeldreHarRettVurdert(annenForelderHarRettVurdert);
+    }
+
+    @And("with aleneomsorg {string}")
+    public void withAleneomsorg(String aleneomsorg) {
+        brevBuilder.setAleneomsorg(aleneomsorg);
+    }
+
+    @And("with barnErFødt {string}")
+    public void withBarnErFødt(String barnErFødt) {
+        brevBuilder.setBarnErFødt(barnErFødt);
+    }
+
+    @And("with antallArbeidsgivere {string}")
+    public void withAntallArbeidsgivere(String antallArbeidsgivere) {
+        brevBuilder.setAntallArbeidsgivere(antallArbeidsgivere);
+    }
+
+    @And("with antallAvslag {string}")
+    public void withAntallAvslag(String antallAvslag) {
+        brevBuilder.setAntallAvslag(antallAvslag);
+    }
+
+
 
 
     @When("we generate brev based on the xml from ezbrev for the scenario {string}")
@@ -109,28 +204,4 @@ public class StepDefinition {
         assertEquals(true, pdfCompare);
     }
 
-    @And("with AutomatiskBehandlet {string}")
-    public void withAutomatiskBehandlet(String automatiskBehandlet) {
-        brevBuilder.setAutomatiskBehandlet(automatiskBehandlet);
-    }
-
-    @And("with vilkaarType {string}")
-    public void withVilkaarTypeVilkaarType(String vilkaarType) {
-        brevBuilder.setVilkaarType(vilkaarType);
-    }
-
-    @And("with avslagsÅrsak {string}")
-    public void withAvslagsÅrsakAvslagsÅrsak(String avslagsAarsak) {
-        brevBuilder.setAvslagsAarsak(avslagsAarsak);
-    }
-
-    @And("with GjelderFoedsel {string}")
-    public void withGjelderFoedselGjelderFoedsel(String gjelderFoedsel) {
-        brevBuilder.setGjelderFoedsel(gjelderFoedsel);
-    }
-
-    @And("with skjaeringstidspunktPassert {string}")
-    public void withSkjaeringstidspunktPassertSkjaeringstidspunktPassert(String skjaeringstidspunktPassert) {
-        brevBuilder.setSkjaeringstidspunktPassert(skjaeringstidspunktPassert);
-    }
 }
