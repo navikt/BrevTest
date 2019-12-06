@@ -174,4 +174,29 @@ public class BrevBuilder {
         this.brevXML = brevXML.replace("{antallTapteDager" + periodenummer + "}", antallTapteDager);
         return this;
     }
+
+    public BrevBuilder setFødselshendelse(String fødselshendelse) {
+        this.brevXML = brevXML.replace("{fødselshendelse}", fødselshendelse);
+        return this;
+    }
+
+    public BrevBuilder setAntallArbeidsgivereIBeregningUtenEtterlønnSluttpakke(String antallArbeidsgivereIBeregningUtenEtterlønnSluttpakke) {
+        this.brevXML = brevXML.replace("{antallArbeidsgivereIBeregningUtenEtterlønnSluttpakke}", antallArbeidsgivereIBeregningUtenEtterlønnSluttpakke);
+        return this;
+    }
+
+    public BrevBuilder setEtterlønnsluttpakke(String etterlønnSluttpakke) {
+        this.brevXML = brevXML.replace("{etterlønnSluttpakke}", etterlønnSluttpakke);
+        return this;
+    }
+
+    public BrevBuilder setDagsats(String dagsats) {
+        this.brevXML = brevXML.replace("{dagsats}", dagsats);
+        return this;
+    }
+
+    public BrevBuilder setForMyeUtbetalt(String forMyeUtbetalt) {
+        this.brevXML = brevXML.replace("{forMyeUtbetalt}", forMyeUtbetalt);
+        return this;
+    }
 }

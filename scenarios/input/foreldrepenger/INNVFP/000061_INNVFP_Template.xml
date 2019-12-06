@@ -5,7 +5,7 @@
         <signerendeSaksbehandler>
             <signerendeSaksbehandlerNavn>R107539</signerendeSaksbehandlerNavn>
         </signerendeSaksbehandler>
-        <automatiskBehandlet>false</automatiskBehandlet>
+        <automatiskBehandlet>{automatiskBehandlet}</automatiskBehandlet>
         <sakspart>
             <sakspartId>04068528157</sakspartId>
             <sakspartTypeKode>PERSON</sakspartTypeKode>
@@ -65,7 +65,7 @@
         <antallBarn>{antallBarn}</antallBarn>
         <barnErFødt>{barnErFødt}</barnErFødt>
         <foreldrepengeperiodenUtvidetUker>5</foreldrepengeperiodenUtvidetUker>
-        <fødselsHendelse>false</fødselsHendelse>
+        <fødselsHendelse>{fødselshendelse}</fødselsHendelse>
         <gjelderFoedsel>{gjelderFoedsel}</gjelderFoedsel>
         <personstatus>{personstatus}</personstatus>
         <dagerTaptFørTermin>1</dagerTaptFørTermin>
@@ -118,7 +118,7 @@
                 <årsak>{årsak3}</årsak>
                 <periodeFom>2019-12-24</periodeFom>
                 <periodeTom>2019-12-24</periodeTom>
-                <periodeDagsats>0</periodeDagsats>
+                <periodeDagsats>1</periodeDagsats>
                 <antallTapteDager>{antallTapteDager3}</antallTapteDager>
                 <arbeidsforholdListe>
                     <arbeidsforhold>
@@ -182,26 +182,26 @@
             <beregning>§§ 14-7 og 8-30</beregning>
         </lovhjemmel>
         <konsekvensForYtelse>{konsekvensForYtelse}</konsekvensForYtelse>
-        <antallBeregningsgrunnlagRegeler>1</antallBeregningsgrunnlagRegeler>
+        <antallBeregningsgrunnlagRegeler>2</antallBeregningsgrunnlagRegeler>
         <beregningsgrunnlagRegelListe>
             <beregningsgrunnlagRegel>
                 <regelStatus>{regelStatus}</regelStatus>
-                <antallArbeidsgivereIBeregningUtenEtterlønnSluttpakke>1
+                <antallArbeidsgivereIBeregningUtenEtterlønnSluttpakke>{antallArbeidsgivereIBeregningUtenEtterlønnSluttpakke}
                 </antallArbeidsgivereIBeregningUtenEtterlønnSluttpakke>
                 <SNNyoppstartet>false</SNNyoppstartet>
                 <andelListe>
                     <andel>
                         <status>{status}</status>
                         <arbeidsgiverNavn>BOUVET NORGE AS AVD STAVANGER</arbeidsgiverNavn>
-                        <dagsats>2304</dagsats>
+                        <dagsats>{dagsats}</dagsats>
                         <månedsinntekt>62917</månedsinntekt>
                         <årsinntekt>755004</årsinntekt>
-                        <etterlønnSluttpakke>false</etterlønnSluttpakke>
+                        <etterlønnSluttpakke>{etterlønnSluttpakke}</etterlønnSluttpakke>
                     </andel>
                 </andelListe>
             </beregningsgrunnlagRegel>
         </beregningsgrunnlagRegelListe>
-        <forMyeUtbetalt>INGEN</forMyeUtbetalt>
+        <forMyeUtbetalt>{forMyeUtbetalt}</forMyeUtbetalt>
         <inntektMottattArbgiver>false</inntektMottattArbgiver>
     </fag>
 </brevdata>

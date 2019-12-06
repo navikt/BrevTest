@@ -105,6 +105,11 @@ public class StepDefinition {
         brevBuilder.setGjelderFoedsel(gjelderFoedsel);
     }
 
+    @And("with fødselsHendelse {string}")
+    public void withFødselshendelse(String fødselshendelse) {
+        brevBuilder.setFødselshendelse(fødselshendelse);
+    }
+
     @And("with skjaeringstidspunktPassert {string}")
     public void withSkjaeringstidspunktPassertSkjaeringstidspunktPassert(String skjaeringstidspunktPassert) {
         brevBuilder.setSkjaeringstidspunktPassert(skjaeringstidspunktPassert);
@@ -179,6 +184,25 @@ public class StepDefinition {
         brevBuilder.setAntallAvslag(antallAvslag);
     }
 
+    @And("with antallArbeidsgivereIBeregningUtenEtterlønnSluttpakke {string}")
+    public void withAntallArbeidsgivereIBeregningUtenEtterlønnSluttpakke(String antallArbeidsgivereIBeregningUtenEtterlønnSluttpakke) {
+        brevBuilder.setAntallArbeidsgivereIBeregningUtenEtterlønnSluttpakke(antallArbeidsgivereIBeregningUtenEtterlønnSluttpakke);
+    }
+
+    @And("with etterlønnSluttpakke {string}")
+    public void withEtterlønnsluttpakke(String etterlønnSluttpakke) {
+        brevBuilder.setEtterlønnsluttpakke(etterlønnSluttpakke);
+    }
+
+    @And("with andel.dagsats {string}")
+    public void withDagsats(String dagsats) {
+        brevBuilder.setDagsats(dagsats);
+    }
+
+    @And("with forMyeUtbetalt {string}")
+    public void withForMyeUtbetalt(String forMyeUtbetalt) {
+        brevBuilder.setForMyeUtbetalt(forMyeUtbetalt);
+    }
 
 
 
