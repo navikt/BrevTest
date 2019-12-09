@@ -2,10 +2,10 @@ Feature: Verifisere POSVED Brev
 
   Scenario Outline: Verify if the POSVED Brev meets the baseline for Scenario <Scenario> and Language <Language>
     Given we have baselines for the brevmål <BrevMål> and brevtype <BrevType> and language <Language>
-    And we construct a brev xml with the language <Language>
-    And with the personStatus <Personstatus>
-    And with the behandlingsType <BehandlingsType>
-    And with AutomatiskBehandlet <AutomatiskBehandlet>
+    And we construct a brev xml with language <Language>
+    And with personStatus <Personstatus>
+    And with behandlingsType <BehandlingsType>
+    And with automatiskBehandlet <AutomatiskBehandlet>
     When we generate brev based on the xml from ezbrev for the scenario <Scenario>
     Then the result brev must meet the baseline for that scenario
 

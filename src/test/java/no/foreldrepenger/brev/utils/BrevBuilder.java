@@ -159,7 +159,6 @@ public class BrevBuilder {
         return this;
     }
 
-
     public BrevBuilder setAntallArbeidsgivere(String antallArbeidsgivere) {
         this.brevXML = brevXML.replace("{antallArbeidsgivere}", antallArbeidsgivere);
         return this;

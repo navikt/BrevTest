@@ -1,7 +1,7 @@
 package no.foreldrepenger.brev.nb;
 
-import com.testautomationguru.utility.CompareMode;
 import com.testautomationguru.utility.PDFUtil;
+import de.redsix.pdfcompare.PdfComparator;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -13,7 +13,7 @@ import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.fail;
 
 public class StepDefinition {
 
@@ -43,49 +43,49 @@ public class StepDefinition {
         outputScenarioMappe = "scenarios/output/" + scenarioMappe + "/" + language + "/";
     }
 
-    @Given("we construct a brev xml with the language {string}")
+    @Given("we construct a brev xml with language {string}")
     public void we_construct_a_brev_xml_with_the_language(String language) throws IOException {
         //Bygge BrevXML
         String brevTemplate = Util.lesFormidlingXML(inputFormidlingXML);
         brevBuilder = new BrevBuilder(brevTemplate).setSprak(language);
     }
 
-    @Given("with the ytelse {string}")
+    @Given("with ytelse {string}")
     public void with_the_ytelse_ytelse(String ytelse) {
         brevBuilder = brevBuilder.setYtelse(ytelse);
     }
 
-    @Given("with the behandlingsType {string}")
+    @Given("with behandlingsType {string}")
     public void with_the_behandlingsType_behandlingsType(String behandlingsType) {
         brevBuilder = brevBuilder.setBehandlingsType(behandlingsType);
     }
 
-    @Given("with the personStatus {string}")
+    @Given("with personStatus {string}")
     public void with_the_personStatus(String personstatus) {
        brevBuilder.setPersonstatus(personstatus);
     }
 
-    @Given("with the OpphavType {string}")
+    @Given("with OpphavType {string}")
     public void with_the_opphavType(String OpphavType) {
         brevBuilder.setOpphavType(OpphavType);
     }
 
-    @And("with the antallBarn {string}")
-    public void withTheAntallBarn(String antallBarn) {
+    @And("with antallBarn {string}")
+    public void withAntallBarn(String antallBarn) {
         brevBuilder.setAntallBarn(antallBarn);
     }
 
-    @And("with the variant {string}")
-    public void withTheVariant(String variant) {
+    @And("with variant {string}")
+    public void withVariant(String variant) {
         brevBuilder.setVariant(variant);
     }
 
-    @And("with the innsynReslutatType {string}")
+    @And("with innsynReslutatType {string}")
     public void withTheInnsynReslutatType(String innsynReslutatType) {
         brevBuilder.setInnsynReslutatType(innsynReslutatType);
     }
 
-    @And("with AutomatiskBehandlet {string}")
+    @And("with automatiskBehandlet {string}")
     public void withAutomatiskBehandlet(String automatiskBehandlet) {
         brevBuilder.setAutomatiskBehandlet(automatiskBehandlet);
     }
@@ -100,7 +100,7 @@ public class StepDefinition {
         brevBuilder.setAvslagsAarsak(avslagsAarsak);
     }
 
-    @And("with GjelderFoedsel {string}")
+    @And("with gjelderFoedsel {string}")
     public void withGjelderFoedsel(String gjelderFoedsel) {
         brevBuilder.setGjelderFoedsel(gjelderFoedsel);
     }
@@ -205,7 +205,6 @@ public class StepDefinition {
     }
 
 
-
     @When("we generate brev based on the xml from ezbrev for the scenario {string}")
     public void we_generate_brev_based_on_the_xml_from_ezbrev(String scenario) {
 
@@ -225,7 +224,10 @@ public class StepDefinition {
     public void we_receive_a_PDF_that_meets_the_baseline() throws IOException {
         pdfUtil.excludeText("\\d+");
         pdfCompare = pdfUtil.compare(baselinePDF, testPDF);
-        assertEquals(true, pdfCompare);
-    }
 
+        if (pdfCompare.equals(false)) {
+            new PdfComparator(baselinePDF, testPDF).compare().writeTo("C:\\Prosjekter\\Differences\\" + scenarioNavn);
+            fail("Output for '" + scenarioNavn + "' matcher ikke baseline. Sjekk C:\\Prosjekter\\Differences\\" + scenarioNavn + ".pdf for differanse");
+        }
+    }
 }
