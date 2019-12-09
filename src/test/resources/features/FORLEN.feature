@@ -2,11 +2,11 @@ Feature: Verifisere FORLEN Brev
 
   Scenario Outline: Verify if the FORLEN Brev meets the baseline for Scenario <Scenario> in Language <Language>
     Given we have baselines for the brevmål <BrevMål> and brevtype <BrevType> and language <Language>
-    And we construct a brev xml with the language <Language>
-    And with the ytelse <Ytelse>
-    And with the variant <Variant>
-    And with the antallBarn <AntallBarn>
-    And with the personStatus <Personstatus>
+    And we construct a brev xml with language <Language>
+    And with ytelse <Ytelse>
+    And with variant <Variant>
+    And with antallBarn <AntallBarn>
+    And with personstatus <Personstatus>
     When we generate brev based on the xml from ezbrev for the scenario <Scenario>
     Then the result brev must meet the baseline for that scenario
 

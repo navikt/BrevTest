@@ -23,9 +23,8 @@ public class Util {
     static final String PROPERTY_FILE = "ezbrev.properties";
 
     public static void lagPDF(String filename, String base64Dokument) {
-        File file = new File(filename);
-
-        try (FileOutputStream fos = new FileOutputStream(file);) {
+        try (FileOutputStream fos = new FileOutputStream(
+                new File(filename))) {
             byte[] decoder = Base64.getDecoder().decode(base64Dokument);
             fos.write(decoder);
         } catch (Exception e) {
