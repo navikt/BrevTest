@@ -9,7 +9,7 @@ public class BrevBuilder {
     }
 
     private void setDefaults() {
-        setYtelse("FP").setBehandlingsType("FOERSTEGANGSBEHANDLING").setPersonstatus("ANNET").setSprak("NB");
+        setYtelse("FP").setBehandlingsType("FOERSTEGANGSBEHANDLING").setPersonstatus("ANNET").setSpråkkode("NB");
     }
 
     public BrevBuilder setYtelse(String ytelseType) {
@@ -31,14 +31,9 @@ public class BrevBuilder {
         return this;
     }
 
-    public BrevBuilder setSprak(String sprakkode) {
+    public BrevBuilder setSpråkkode(String sprakkode) {
         this.brevXML = brevXML.replace("{sprakkode}", sprakkode);
         return this;
-    }
-
-    public String build() {
-        setDefaults();
-        return brevXML;
     }
 
     public BrevBuilder setOpphavType(String opphavType) {
@@ -198,4 +193,11 @@ public class BrevBuilder {
         this.brevXML = brevXML.replace("{forMyeUtbetalt}", forMyeUtbetalt);
         return this;
     }
+
+    public String build() {
+        setDefaults();
+        return brevXML;
+    }
 }
+
+

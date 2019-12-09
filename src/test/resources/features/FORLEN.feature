@@ -6,7 +6,7 @@ Feature: Verifisere FORLEN Brev
     And with ytelse <Ytelse>
     And with variant <Variant>
     And with antallBarn <AntallBarn>
-    And with personStatus <Personstatus>
+    And with personstatus <Personstatus>
     When we generate brev based on the xml from ezbrev for the scenario <Scenario>
     Then the result brev must meet the baseline for that scenario
 
