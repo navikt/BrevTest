@@ -13,6 +13,8 @@ import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
 
+
+import static no.foreldrepenger.brev.utils.BrevTarget.*;
 import static org.junit.jupiter.api.Assertions.fail;
 
 public class StepDefinition {
@@ -47,67 +49,67 @@ public class StepDefinition {
     public void we_construct_a_brev_xml_with_the_language(String language) throws IOException {
         //Bygge BrevXML
         String brevTemplate = Util.lesFormidlingXML(inputFormidlingXML);
-        brevBuilder = new BrevBuilder(brevTemplate).setSpråkkode(language);
+        brevBuilder = new BrevBuilder(brevTemplate).replace(SPRÅKKODE, language);
     }
 
     @And("with andel.dagsats {string}")
     public void withDagsats(String dagsats) {
-        brevBuilder.setDagsats(dagsats);
+        brevBuilder.replace(DAGSATS, dagsats);
     }
 
     @And("with annenForelderHarRettVurdert {string}")
     public void withAnnenForelderHarRettVurdert(String annenForelderHarRettVurdert) {
-        brevBuilder.setAnnenForeldreHarRettVurdert(annenForelderHarRettVurdert);
+        brevBuilder.replace(ANNEN_FORELDER_HAR_RETT_VURDERT, annenForelderHarRettVurdert);
     }
 
     @And("with antallArbeidsgivere {string}")
     public void withAntallArbeidsgivere(String antallArbeidsgivere) {
-        brevBuilder.setAntallArbeidsgivere(antallArbeidsgivere);
+        brevBuilder.replace(ANTALL_ARBEIDSGIVERE, antallArbeidsgivere);
     }
 
     @And("with antallAvslag {string}")
     public void withAntallAvslag(String antallAvslag) {
-        brevBuilder.setAntallAvslag(antallAvslag);
+        brevBuilder.replace(ANTALL_AVSLAG, antallAvslag);
     }
 
     @And("with antallArbeidsgivereIBeregningUtenEtterlønnSluttpakke {string}")
     public void withAntallArbeidsgivereIBeregningUtenEtterlønnSluttpakke(String antallArbeidsgivereIBeregningUtenEtterlønnSluttpakke) {
-        brevBuilder.setAntallArbeidsgivereIBeregningUtenEtterlønnSluttpakke(antallArbeidsgivereIBeregningUtenEtterlønnSluttpakke);
+        brevBuilder.replace(ANTALL_ARBEIDSGIVERE_I_BEREGNING_UTEN_ETTERLØNN_SLUTTPAKKE, antallArbeidsgivereIBeregningUtenEtterlønnSluttpakke);
     }
 
     @And("with antallBarn {string}")
     public void withAntallBarn(String antallBarn) {
-        brevBuilder.setAntallBarn(antallBarn);
+        brevBuilder.replace(ANTALL_BARN, antallBarn);
     }
 
     @And("with aleneomsorg {string}")
     public void withAleneomsorg(String aleneomsorg) {
-        brevBuilder.setAleneomsorg(aleneomsorg);
+        brevBuilder.replace(ALENEOMSORG, aleneomsorg);
     }
 
     @And("with automatiskBehandlet {string}")
     public void withAutomatiskBehandlet(String automatiskBehandlet) {
-        brevBuilder.setAutomatiskBehandlet(automatiskBehandlet);
+        brevBuilder.replace(AUTOMATISK_BEHANDLET, automatiskBehandlet);
     }
 
     @And("with avslagsÅrsak {string}")
     public void withAvslagsÅrsakAvslagsÅrsak(String avslagsAarsak) {
-        brevBuilder.setAvslagsAarsak(avslagsAarsak);
+        brevBuilder.replace(AVSLAGSÅRSAK, avslagsAarsak);
     }
 
     @And("with barnErFødt {string}")
     public void withBarnErFødt(String barnErFødt) {
-        brevBuilder.setBarnErFødt(barnErFødt);
+        brevBuilder.replace(BARN_ER_FØDT, barnErFødt);
     }
 
     @And("with behandlingsResultat {string}")
     public void withBehandlingsResultat(String behandlingsResultat) {
-        brevBuilder.setBehandlingsResultat(behandlingsResultat);
+        brevBuilder.replace(BEHANDLINGSRESULTAT, behandlingsResultat);
     }
 
     @Given("with behandlingsType {string}")
     public void withbehandlingsType(String behandlingsType) {
-        brevBuilder = brevBuilder.setBehandlingsType(behandlingsType);
+        brevBuilder = brevBuilder.replace(BEHANDLINGSTYPE, behandlingsType);
     }
 
     @And("with dodsdato {string}")
@@ -117,42 +119,42 @@ public class StepDefinition {
 
     @And("with etterlønnSluttpakke {string}")
     public void withEtterlønnsluttpakke(String etterlønnSluttpakke) {
-        brevBuilder.setEtterlønnsluttpakke(etterlønnSluttpakke);
+        brevBuilder.replace(ETTERLØNN_SLUTTPAKKE, etterlønnSluttpakke);
     }
 
     @And("with forMyeUtbetalt {string}")
     public void withForMyeUtbetalt(String forMyeUtbetalt) {
-        brevBuilder.setForMyeUtbetalt(forMyeUtbetalt);
+        brevBuilder.replace(FOR_MYE_UTBETALT, forMyeUtbetalt);
     }
 
     @And("with fødselsHendelse {string}")
     public void withFødselshendelse(String fødselshendelse) {
-        brevBuilder.setFødselshendelse(fødselshendelse);
+        brevBuilder.replace(FØDSELSHENDELSE, fødselshendelse);
     }
 
     @And("with gjelderFoedsel {string}")
     public void withGjelderFoedsel(String gjelderFoedsel) {
-        brevBuilder.setGjelderFoedsel(gjelderFoedsel);
+        brevBuilder.replace(GJELDER_FØDSEL, gjelderFoedsel);
     }
 
     @And("with innsynReslutatType {string}")
     public void withInnsynReslutatType(String innsynReslutatType) {
-        brevBuilder.setInnsynReslutatType(innsynReslutatType);
+        brevBuilder.replace(INNSYN_RESULTAT_TYPE, innsynReslutatType);
     }
 
     @And("with konsekvensForYtelse {string}")
     public void withKonsekvensForYtelse(String konsekvensForYtelse) {
-        brevBuilder.setKonsekvensForYtelse(konsekvensForYtelse);
+        brevBuilder.replace(KONSEKVENS_FOR_YTELSE, konsekvensForYtelse);
     }
 
     @Given("with OpphavType {string}")
     public void withOpphavtype(String OpphavType) {
-        brevBuilder.setOpphavType(OpphavType);
+        brevBuilder.replace(OPPHAVTYPE, OpphavType);
     }
 
     @Given("with personstatus {string}")
     public void withPersonstatus(String personstatus) {
-       brevBuilder.setPersonstatus(personstatus);
+       brevBuilder.replace(PERSONSTATUS, personstatus);
     }
 
     @And("with periode {int} with årsak {string}, gradering {string} og antallTapteDager {string}")
@@ -171,37 +173,37 @@ public class StepDefinition {
 
     @And("with regelStatus {string}")
     public void withRegelStatus(String regelStatus) {
-        brevBuilder.setRegelStatus(regelStatus);
+        brevBuilder.replace(REGELSTATUS, regelStatus);
     }
 
     @And("with relasjonskode {string}")
     public void withRelasjonskode(String relasjonskode) {
-        brevBuilder.setRelasjonskode(relasjonskode);
+        brevBuilder.replace(RELASJONSKODE, relasjonskode);
     }
 
     @And("with skjaeringstidspunktPassert {string}")
     public void withSkjaeringstidspunktPassertSkjaeringstidspunktPassert(String skjaeringstidspunktPassert) {
-        brevBuilder.setSkjaeringstidspunktPassert(skjaeringstidspunktPassert);
+        brevBuilder.replace(SKJÆRINGSTIDSPUNKT_PASSERT, skjaeringstidspunktPassert);
     }
 
     @And("with status {string}")
     public void withStatus(String status) {
-        brevBuilder.setStatus(status);
+        brevBuilder.replace(STATUS, status);
     }
 
     @And("with variant {string}")
     public void withVariant(String variant) {
-        brevBuilder.setVariant(variant);
+        brevBuilder.replace(VARIANT, variant);
     }
 
     @And("with vilkaarType {string}")
     public void withVilkaarTypeVilkaarType(String vilkaarType) {
-        brevBuilder.setVilkaarType(vilkaarType);
+        brevBuilder.replace(VILKÅR_TYPE, vilkaarType);
     }
 
     @Given("with ytelse {string}")
     public void withYtelse(String ytelse) {
-        brevBuilder = brevBuilder.setYtelse(ytelse);
+        brevBuilder = brevBuilder.replace(YTELSE, ytelse);
     }
 
     @When("we generate brev based on the xml from ezbrev for the scenario {string}")
@@ -211,7 +213,7 @@ public class StepDefinition {
         baselinePDF = baselineScenarioMappe + scenarioNavn + ".pdf";
         testPDF = outputScenarioMappe + scenarioNavn + ".pdf";
 
-        Map<String, Object> requestBody = new HashMap<String, Object>();
+        Map<String, Object> requestBody = new HashMap<>();
         requestBody.put("brevmal", brevMal);
         requestBody.put("xml", brevBuilder.build());
         requestBody.put("rediger", false);

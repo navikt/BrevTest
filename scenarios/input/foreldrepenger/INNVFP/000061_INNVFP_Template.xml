@@ -65,7 +65,7 @@
         <antallBarn>{antallBarn}</antallBarn>
         <barnErFødt>{barnErFødt}</barnErFødt>
         <foreldrepengeperiodenUtvidetUker>5</foreldrepengeperiodenUtvidetUker>
-        <fødselsHendelse>{fødselshendelse}</fødselsHendelse>
+        <fødselsHendelse>{fødselsHendelse}</fødselsHendelse>
         <gjelderFoedsel>{gjelderFoedsel}</gjelderFoedsel>
         <personstatus>{personstatus}</personstatus>
         <dagerTaptFørTermin>1</dagerTaptFørTermin>
