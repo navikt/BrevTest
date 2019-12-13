@@ -1,6 +1,15 @@
 # Brev Akseptansetesting
 
-Vi bruker Cucumber Datatables for å kjøre brev xml mot EZBrev Endpoint. Fyll opp username og password i test.properties fil
+Vi bruker Cucumber Datatables for å kjøre brev xml mot EZBrev Endpoint. Dette gjør det mulig for å teste mange ulike scenarior.
+
+Hvert scenario bygger opp en brev xml som sendes inn til EZBrev endepunkt. Endepunktet returnerer brev pdf som korresponderer til den innsendte brev
+
+## For å ta i bruk
+Opprett en *ezbrev.properties* fil under *BrevTest/src/test/resources/ezbrev.properties* og skriv inn følgende:
+
+ezbrev.username=W157126
+ezbrev.password=EspmontriNav2502
+ezbrev.url=https://ezbrev-backend-q4.nais.preprod.local/rest/bestill/t4
 
 Man kan finne sample BrevXML fra `dokument_felles` tabell i fpformidling database  
 
@@ -19,7 +28,7 @@ Man kan finne sample BrevXML fra `dokument_felles` tabell i fpformidling databas
 * INNLYS - Påbegynt
 * INNSVP - Ikke påbegynt
 * INNTID - Påbegynt
-* INNVFP - Done (Baseline oppdatert 09.12.19)
+* INNVFP - Done (Baseline oppdatert 13.12.19 - SC5 NN og EN: forventes retting (mellomrom) , SC26: feil for utbetalingsgrad = 100)
 * INSSKR - Done (Baseline oppdatert 18.11.19)
 * KLAGAV - Påbegynt
 * KLAGNY - Påbegynt

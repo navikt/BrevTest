@@ -4,7 +4,7 @@ import static no.foreldrepenger.brev.utils.BrevTarget.*;
 
 public class BrevBuilder {
 
-    String brevXML;
+    private String brevXML;
 
     public BrevBuilder(String brevTemplate) {
         this.brevXML = brevTemplate;
@@ -26,22 +26,14 @@ public class BrevBuilder {
         return this;
     }
 
-    private String labelToTarget(String label) {
-        return "{" + label + "}";
-    }
-
-    private String labelToField(String label) {
-        return "<" + label + ">" + labelToTarget(label) + "</" + label + ">";
-    }
-
-
-    public BrevBuilder setAntallTapteDager(int periodenummer, String antallTapteDager) {
-        this.brevXML = brevXML.replace("{antallTapteDager" + periodenummer + "}", antallTapteDager);
-        return this;
-    }
-
-    public BrevBuilder setGraderingForPeriode(int periodenummer, String gradering) {
-        this.brevXML = brevXML.replace("{gradering" + periodenummer + "}", gradering);
+    public BrevBuilder replace(BrevTarget brevTarget, String value, int periodenummer) {
+        if (value.equalsIgnoreCase("NULL")){
+            this.brevXML = brevXML.replace(labelToField(brevTarget.getLabel() + periodenummer), "");
+        } else if (value.equalsIgnoreCase("DEFAULT")) {
+            this.brevXML = brevXML.replace(labelToTarget(brevTarget.getLabel() + periodenummer), brevTarget.getDefaultValue());
+        } else {
+            this.brevXML = brevXML.replace(labelToTarget(brevTarget.getLabel() + periodenummer), value);
+        }
         return this;
     }
 
@@ -56,14 +48,18 @@ public class BrevBuilder {
         return this;
     }
 
-    public BrevBuilder setÅrsakForPeriode(int periodenummer, String årsak) {
-        this.brevXML = brevXML.replace("{årsak" + periodenummer + "}", årsak);
-        return this;
-    }
-
     public String build() {
         setDefaults();
         return brevXML;
+    }
+
+
+    private String labelToTarget(String label) {
+        return "{" + label + "}";
+    }
+
+    private String labelToField(String label) {
+        return "<" + label + ">" + labelToTarget(label) + "</" + label + ">";
     }
 }
 

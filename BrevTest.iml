@@ -10,17 +10,6 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" scope="TEST" name="Maven: com.testautomationguru.pdfutil:pdf-util:0.0.3" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.pdfbox:pdfbox:2.0.8" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.pdfbox:fontbox:2.0.8" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: org.apache.pdfbox:pdfbox-tools:2.0.8" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: org.apache.pdfbox:pdfbox-debugger:2.0.8" level="project" />
-    <orderEntry type="library" name="Maven: de.redsix:pdfcompare:1.1.40" level="project" />
-    <orderEntry type="library" name="Maven: com.typesafe:config:1.3.3" level="project" />
-    <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.7.25" level="project" />
-    <orderEntry type="library" name="Maven: ch.qos.logback:logback-classic:1.2.3" level="project" />
-    <orderEntry type="library" name="Maven: ch.qos.logback:logback-core:1.2.3" level="project" />
-    <orderEntry type="library" name="Maven: commons-cli:commons-cli:1.4" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: io.rest-assured:rest-assured:4.1.2" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.codehaus.groovy:groovy:2.5.8" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.codehaus.groovy:groovy-xml:2.5.8" level="project" />

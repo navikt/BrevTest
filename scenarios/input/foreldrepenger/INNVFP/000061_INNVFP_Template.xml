@@ -87,10 +87,10 @@
                         <arbeidsgiverNavn>BOUVET NORGE AS AVD STAVANGER</arbeidsgiverNavn>
                         <aktivitetDagsats>461</aktivitetDagsats>
                         <gradering>{gradering1}</gradering>
-                        <uttaksgrad>20</uttaksgrad>
+                        <uttaksgrad>50</uttaksgrad>
                         <prosentArbeid>50</prosentArbeid>
                         <stillingsprosent>50</stillingsprosent>
-                        <utbetalingsgrad>20</utbetalingsgrad>
+                        <utbetalingsgrad>50</utbetalingsgrad>
                     </arbeidsforhold>
                 </arbeidsforholdListe>
             </periode>
@@ -125,10 +125,10 @@
                         <arbeidsgiverNavn>BOUVET NORGE AS AVD STAVANGER</arbeidsgiverNavn>
                         <aktivitetDagsats>0</aktivitetDagsats>
                         <gradering>{gradering3}</gradering>
-                        <uttaksgrad>0</uttaksgrad>
+                        <uttaksgrad>50</uttaksgrad>
                         <prosentArbeid>0</prosentArbeid>
                         <stillingsprosent>100</stillingsprosent>
-                        <utbetalingsgrad>0</utbetalingsgrad>
+                        <utbetalingsgrad>100</utbetalingsgrad>
                     </arbeidsforhold>
                 </arbeidsforholdListe>
             </periode>
@@ -144,10 +144,10 @@
                         <arbeidsgiverNavn>BOUVET NORGE AS AVD STAVANGER</arbeidsgiverNavn>
                         <aktivitetDagsats>0</aktivitetDagsats>
                         <gradering>{gradering4}</gradering>
-                        <uttaksgrad>0</uttaksgrad>
+                        <uttaksgrad>50</uttaksgrad>
                         <prosentArbeid>0</prosentArbeid>
                         <stillingsprosent>100</stillingsprosent>
-                        <utbetalingsgrad>0</utbetalingsgrad>
+                        <utbetalingsgrad>100</utbetalingsgrad>
                     </arbeidsforhold>
                 </arbeidsforholdListe>
             </periode>
@@ -163,10 +163,10 @@
                         <arbeidsgiverNavn>BOUVET NORGE AS AVD STAVANGER</arbeidsgiverNavn>
                         <aktivitetDagsats>0</aktivitetDagsats>
                         <gradering>{gradering5}</gradering>
-                        <uttaksgrad>0</uttaksgrad>
+                        <uttaksgrad>50</uttaksgrad>
                         <prosentArbeid>0</prosentArbeid>
                         <stillingsprosent>100</stillingsprosent>
-                        <utbetalingsgrad>0</utbetalingsgrad>
+                        <utbetalingsgrad>100</utbetalingsgrad>
                     </arbeidsforhold>
                 </arbeidsforholdListe>
             </periode>

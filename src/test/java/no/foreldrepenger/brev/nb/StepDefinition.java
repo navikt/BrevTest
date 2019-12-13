@@ -13,7 +13,6 @@ import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
 
-
 import static no.foreldrepenger.brev.utils.BrevTarget.*;
 import static org.junit.jupiter.api.Assertions.fail;
 
@@ -159,16 +158,16 @@ public class StepDefinition {
 
     @And("with periode {int} with årsak {string}, gradering {string} og antallTapteDager {string}")
     public void periodeWithÅrsakGraderingOgAntallTapteDager(int periodenummer, String årsak, String gradering, String antallTapteDager) {
-        brevBuilder.setÅrsakForPeriode(periodenummer, årsak);
-        brevBuilder.setGraderingForPeriode(periodenummer, gradering);
-        brevBuilder.setAntallTapteDager(periodenummer, antallTapteDager);
+        brevBuilder.replace(ÅRSAK, årsak, periodenummer);
+        brevBuilder.replace(GRADERING, gradering, periodenummer);
+        brevBuilder.replace(ANTALL_TAPTE_DAGER, antallTapteDager, periodenummer);
     }
 
     @And("with periode {int} with årsak {string}, gradering = false og antallTapteDager {string}")
     public void periodeWithÅrsakogAntallTapteDager(int periodenummer, String årsak, String antallTapteDager) {
-        brevBuilder.setÅrsakForPeriode(periodenummer, årsak);
-        brevBuilder.setGraderingForPeriode(periodenummer, "false");
-        brevBuilder.setAntallTapteDager(periodenummer, antallTapteDager);
+        brevBuilder.replace(ÅRSAK, årsak, periodenummer);
+        brevBuilder.replace(GRADERING, "DEFAULT", periodenummer);
+        brevBuilder.replace(ANTALL_TAPTE_DAGER, antallTapteDager, periodenummer);
     }
 
     @And("with regelStatus {string}")
