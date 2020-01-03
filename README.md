@@ -28,7 +28,7 @@ Man kan finne sample BrevXML fra `dokument_felles` tabell i fpformidling databas
 * INNLYS - Påbegynt
 * INNSVP - Ikke påbegynt
 * INNTID - Påbegynt
-* INNVFP - Done (Baseline oppdatert 13.12.19 - SC5 NN og EN: forventes retting (mellomrom) , SC26: feil for utbetalingsgrad = 100)
+* INNVFP - Done (Baseline oppdatert 03.01.2020, SC26 er feil - avventer på produksjonsetting av periodeårsak 2038.)
 * INSSKR - Done (Baseline oppdatert 18.11.19)
 * KLAGAV - Påbegynt
 * KLAGNY - Påbegynt

@@ -60,6 +60,7 @@
         <totalArbeidsgiverAndel>1</totalArbeidsgiverAndel>
         <antallArbeidsgivere>{antallArbeidsgivere}</antallArbeidsgivere>
         <annenForelderHarRettVurdert>{annenForelderHarRettVurdert}</annenForelderHarRettVurdert>
+        <annenForelderHarRett>{annenForelderHarRett}</annenForelderHarRett>
         <aleneomsorg>{aleneomsorg}</aleneomsorg>
         <ikkeOmsorg>false</ikkeOmsorg>
         <antallBarn>{antallBarn}</antallBarn>

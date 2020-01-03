@@ -3,6 +3,7 @@ package no.foreldrepenger.brev.utils;
 public enum BrevTarget {
     ALENEOMSORG ("aleneomsorg", "false"),
     ANNEN_FORELDER_HAR_RETT_VURDERT ("annenForelderHarRettVurdert", "true"),
+    ANNEN_FORELDER_HAR_RETT ("annenForelderHarRett", "true"),
     ANTALL_ARBEIDSGIVERE ("antallArbeidsgivere", "1"),
     ANTALL_ARBEIDSGIVERE_I_BEREGNING_UTEN_ETTERLØNN_SLUTTPAKKE ("antallArbeidsgivereIBeregningUtenEtterlønnSluttpakke", "1"),
     ANTALL_AVSLAG ("antallAvslag", "0"),

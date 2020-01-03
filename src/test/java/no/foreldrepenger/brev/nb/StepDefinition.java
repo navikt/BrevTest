@@ -56,6 +56,11 @@ public class StepDefinition {
         brevBuilder.replace(DAGSATS, dagsats);
     }
 
+    @And("with annenForelderHarRett {string}")
+    public void withAnnenForelderHarRett(String annenForelderHarRett) {
+        brevBuilder.replace(ANNEN_FORELDER_HAR_RETT, annenForelderHarRett);
+    }
+
     @And("with annenForelderHarRettVurdert {string}")
     public void withAnnenForelderHarRettVurdert(String annenForelderHarRettVurdert) {
         brevBuilder.replace(ANNEN_FORELDER_HAR_RETT_VURDERT, annenForelderHarRettVurdert);
