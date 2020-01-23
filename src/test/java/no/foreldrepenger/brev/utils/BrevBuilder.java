@@ -53,7 +53,6 @@ public class BrevBuilder {
         return brevXML;
     }
 
-
     private String labelToTarget(String label) {
         return "{" + label + "}";
     }

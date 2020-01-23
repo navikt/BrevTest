@@ -216,12 +216,15 @@ public class StepDefinition {
         scenarioNavn = brevMal + "_" + brevType + "_" + language + "_" + scenario;
         baselinePDF = baselineScenarioMappe + scenarioNavn + ".pdf";
         testPDF = outputScenarioMappe + scenarioNavn + ".pdf";
+        String inputXML = inputScenarioMappe + scenarioNavn + ".txt";
+        String brevXml = brevBuilder.build();
 
         Map<String, Object> requestBody = new HashMap<>();
         requestBody.put("brevmal", brevMal);
-        requestBody.put("xml", brevBuilder.build());
+        requestBody.put("xml", brevXml);
         requestBody.put("rediger", false);
         requestBody.put("utledRegisterInfo", false);
+        Util.lagInputXmlTekstFil(inputXML, brevXml);
         Util.lagPDF(testPDF, Util.henteBase64Dokument(requestBody));
     }
 

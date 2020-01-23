@@ -20,15 +20,39 @@ public class Util {
     private static String username;
     private static String password;
     private static String url;
-    static final String PROPERTY_FILE = "ezbrev.properties";
+    static final String PROPERTY_CONFIG_FILE = "ezbrev-url.properties";
+    static final String PROPERTY_CREDS_FILE = "ezbrev-creds.properties";
 
     public static void lagPDF(String filename, String base64Dokument) {
-        try (FileOutputStream fos = new FileOutputStream(
-                new File(filename))) {
+        File file = new File(filename);
+        try {
+            if (file.getParentFile() != null) {
+                file.getParentFile().mkdirs();
+            }
+        } catch (Exception e) {
+            System.out.println("Could not create directory: " + e.getMessage());
+        }
+        try (FileOutputStream fos = new FileOutputStream(file)) {
             byte[] decoder = Base64.getDecoder().decode(base64Dokument);
             fos.write(decoder);
         } catch (Exception e) {
-            e.printStackTrace();
+            System.out.println("Could not create file: " + e.getMessage());
+        }
+    }
+
+    public static void lagInputXmlTekstFil(String filename, String xml){
+        File file = new File(filename);
+        try {
+            if (file.getParentFile() != null) {
+                file.getParentFile().mkdirs();
+            }
+        } catch (Exception e) {
+            System.out.println("Could not create directory: " + e.getMessage());
+        }
+        try (FileOutputStream fos = new FileOutputStream(file)) {
+            fos.write(xml.getBytes());
+        } catch (Exception e) {
+            System.out.println("Could not create file: " + e.getMessage());
         }
     }
 
@@ -51,13 +75,14 @@ public class Util {
     }
 
     private static void lesProperties() {
-
-        try (InputStream input = Util.class.getClassLoader().getResourceAsStream(PROPERTY_FILE)) {
+        try (InputStream input1 = Util.class.getClassLoader().getResourceAsStream(PROPERTY_CONFIG_FILE);
+             InputStream input2 = Util.class.getClassLoader().getResourceAsStream(PROPERTY_CREDS_FILE)) {
 
             Properties prop = new Properties();
 
             // load a properties file
-            prop.load(input);
+            prop.load(input1);
+            prop.load(input2);
 
             // get the property value and print it out
             username = prop.getProperty("ezbrev.username");
