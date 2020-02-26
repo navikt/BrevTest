@@ -150,6 +150,15 @@
                         <stillingsprosent>100</stillingsprosent>
                         <utbetalingsgrad>50</utbetalingsgrad>
                     </arbeidsforhold>
+                    <arbeidsforhold>
+                        <arbeidsgiverNavn>BOUVET NORGE AS AVD STAVANGER</arbeidsgiverNavn>
+                        <aktivitetDagsats>0</aktivitetDagsats>
+                        <gradering>{gradering4}</gradering>
+                        <uttaksgrad>70</uttaksgrad>
+                        <prosentArbeid>0</prosentArbeid>
+                        <stillingsprosent>100</stillingsprosent>
+                        <utbetalingsgrad>70</utbetalingsgrad>
+                    </arbeidsforhold>
                 </arbeidsforholdListe>
             </periode>
             <periode>
