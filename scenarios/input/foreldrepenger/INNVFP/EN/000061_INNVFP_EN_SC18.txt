@@ -52,7 +52,7 @@
         <mottattDato>2019-11-20</mottattDato>
         <dekningsgrad>80</dekningsgrad>
         <bruttoBeregningsgrunnlag>599148</bruttoBeregningsgrunnlag>
-        <dagsats>461</dagsats>
+        <dagsats>0</dagsats>
         <månedsbeløp>9988</månedsbeløp>
         <stønadsperiodeFom>2019-11-04</stønadsperiodeFom>
         <stønadsperiodeTom>2020-01-06</stønadsperiodeTom>

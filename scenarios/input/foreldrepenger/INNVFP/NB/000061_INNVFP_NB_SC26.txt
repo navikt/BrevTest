@@ -47,7 +47,7 @@
     <fag>
         
         <behandlingsType>REVURDERING</behandlingsType>
-        <relasjonskode>FAR</relasjonskode>
+        <relasjonskode>MOR</relasjonskode>
         <behandlingsResultat>INNVILGET</behandlingsResultat>
         <mottattDato>2019-11-20</mottattDato>
         <dekningsgrad>80</dekningsgrad>
@@ -59,26 +59,26 @@
         <totalBrukerAndel>1</totalBrukerAndel>
         <totalArbeidsgiverAndel>1</totalArbeidsgiverAndel>
         <antallArbeidsgivere>1</antallArbeidsgivere>
-        <annenForelderHarRettVurdert>IKKE_VURDERT</annenForelderHarRettVurdert>
+        <annenForelderHarRettVurdert>JA</annenForelderHarRettVurdert>
         <annenForelderHarRett>true</annenForelderHarRett>
-        <aleneomsorg>IKKE_VURDERT</aleneomsorg>
+        <aleneomsorg>NEI</aleneomsorg>
         <ikkeOmsorg>false</ikkeOmsorg>
-        <antallBarn>1</antallBarn>
+        <antallBarn>2</antallBarn>
         <barnErFødt>true</barnErFødt>
         <foreldrepengeperiodenUtvidetUker>5</foreldrepengeperiodenUtvidetUker>
-        <fødselsHendelse>false</fødselsHendelse>
-        <gjelderFoedsel>true</gjelderFoedsel>
+        <fødselsHendelse>true</fødselsHendelse>
+        <gjelderFoedsel>false</gjelderFoedsel>
         <personstatus>ANNET</personstatus>
         <dagerTaptFørTermin>1</dagerTaptFørTermin>
         <antallPerioder>5</antallPerioder>
         <antallInnvilget>5</antallInnvilget>
-        <antallAvslag>0</antallAvslag>
+        <antallAvslag>4</antallAvslag>
         <prematurDager>0</prematurDager>
-        <besteBeregning>false</besteBeregning>
+        <besteBeregning>true</besteBeregning>
         <periodeListe>
             <periode>
                 <innvilget>true</innvilget>
-                <årsak>2038</årsak>
+                <årsak>4100</årsak>
                 <periodeFom>2019-11-04</periodeFom>
                 <periodeTom>2019-12-06</periodeTom>
                 <periodeDagsats>461</periodeDagsats>
@@ -97,7 +97,7 @@
             </periode>
             <periode>
                 <innvilget>true</innvilget>
-                <årsak>2038</årsak>
+                <årsak>4073</årsak>
                 <periodeFom>2019-12-10</periodeFom>
                 <periodeTom>2019-12-23</periodeTom>
                 <periodeDagsats>2304</periodeDagsats>
@@ -116,7 +116,7 @@
             </periode>
             <periode>
                 <innvilget>true</innvilget>
-                <årsak>2001</årsak>
+                <årsak>4075</årsak>
                 <periodeFom>2019-12-24</periodeFom>
                 <periodeTom>2019-12-24</periodeTom>
                 <periodeDagsats>1</periodeDagsats>
@@ -135,7 +135,7 @@
             </periode>
             <periode>
                 <innvilget>true</innvilget>
-                <årsak>2001</årsak>
+                <årsak>4087</årsak>
                 <periodeFom>2019-12-27</periodeFom>
                 <periodeTom>2019-12-31</periodeTom>
                 <periodeDagsats>0</periodeDagsats>
@@ -191,7 +191,7 @@
             <vurdering>§§ 14-11 og 14-12</vurdering>
             <beregning>§§ 14-7 og 8-30</beregning>
         </lovhjemmel>
-        <konsekvensForYtelse>ENDRING_I_UTTAK</konsekvensForYtelse>
+        <konsekvensForYtelse>ENDRING_I_BEREGNING</konsekvensForYtelse>
         <antallBeregningsgrunnlagRegeler>2</antallBeregningsgrunnlagRegeler>
         <beregningsgrunnlagRegelListe>
             <beregningsgrunnlagRegel>
@@ -201,7 +201,7 @@
                 <SNNyoppstartet>false</SNNyoppstartet>
                 <andelListe>
                     <andel>
-                        <status>FRILANSER</status>
+                        <status>DAGPENGER</status>
                         <arbeidsgiverNavn>BOUVET NORGE AS AVD STAVANGER</arbeidsgiverNavn>
                         <dagsats>2304</dagsats>
                         <månedsinntekt>62917</månedsinntekt>

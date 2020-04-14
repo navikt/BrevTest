@@ -52,8 +52,13 @@ public class StepDefinition {
     }
 
     @And("with andel.dagsats {string}")
-    public void withDagsats(String dagsats) {
-        brevBuilder.replace(DAGSATS, dagsats);
+    public void withAndelDagsats(String dagsats) {
+        brevBuilder.replace(ANDEL_DAGSATS, dagsats);
+    }
+
+    @And("with fag.dagsats {string}")
+    public void withFagDagsats(String dagsats) {
+        brevBuilder.replace(FAG_DAGSATS, dagsats);
     }
 
     @And("with annenForelderHarRett {string}")
@@ -114,6 +119,11 @@ public class StepDefinition {
     @Given("with behandlingsType {string}")
     public void withbehandlingsType(String behandlingsType) {
         brevBuilder = brevBuilder.replace(BEHANDLINGSTYPE, behandlingsType);
+    }
+
+    @Given("with besteBeregning {string}")
+    public void withBesteBeregning(String besteBeregning) {
+        brevBuilder = brevBuilder.replace(BESTEBEREGNING, besteBeregning);
     }
 
     @And("with dodsdato {string}")

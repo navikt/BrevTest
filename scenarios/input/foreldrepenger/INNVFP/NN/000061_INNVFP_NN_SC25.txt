@@ -74,7 +74,7 @@
         <antallInnvilget>5</antallInnvilget>
         <antallAvslag>4</antallAvslag>
         <prematurDager>0</prematurDager>
-        <besteBeregning>false</besteBeregning>
+        <besteBeregning>true</besteBeregning>
         <periodeListe>
             <periode>
                 <innvilget>true</innvilget>

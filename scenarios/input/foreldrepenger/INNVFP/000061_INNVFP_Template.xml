@@ -52,7 +52,7 @@
         <mottattDato>2019-11-20</mottattDato>
         <dekningsgrad>80</dekningsgrad>
         <bruttoBeregningsgrunnlag>599148</bruttoBeregningsgrunnlag>
-        <dagsats>461</dagsats>
+        <dagsats>{fagDagsats}</dagsats>
         <månedsbeløp>9988</månedsbeløp>
         <stønadsperiodeFom>2019-11-04</stønadsperiodeFom>
         <stønadsperiodeTom>2020-01-06</stønadsperiodeTom>
@@ -74,7 +74,7 @@
         <antallInnvilget>5</antallInnvilget>
         <antallAvslag>{antallAvslag}</antallAvslag>
         <prematurDager>0</prematurDager>
-        <besteBeregning>false</besteBeregning>
+        <besteBeregning>{besteBeregning}</besteBeregning>
         <periodeListe>
             <periode>
                 <innvilget>true</innvilget>
@@ -203,7 +203,7 @@
                     <andel>
                         <status>{status}</status>
                         <arbeidsgiverNavn>BOUVET NORGE AS AVD STAVANGER</arbeidsgiverNavn>
-                        <dagsats>{dagsats}</dagsats>
+                        <dagsats>{andelDagsats}</dagsats>
                         <månedsinntekt>62917</månedsinntekt>
                         <årsinntekt>755004</årsinntekt>
                         <etterlønnSluttpakke>{etterlønnSluttpakke}</etterlønnSluttpakke>
